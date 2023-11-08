@@ -1,0 +1,54 @@
+$white-color: #fff;
+$primary-color: #e3106e;
+$gray-color: #f1f5f8;
+$secondary-color: #e3106e;
+@mixin transform($property) {
+    -webkit-transform: $property;
+    -ms-transform: $property;
+    transform: $property;
+}
+
+@mixin border-radius($radius) {
+    border-radius: $radius;
+    -webkit-border-radius: $radius;
+    -ms-border-radius: $radius;
+}
+
+//usage: @include shift([property],[duration],[easing]);
+@mixin transition($property: all, $duration: 0.4s, $ease: ease) {
+    transition: $property $duration $ease;
+    -webkit-transition: $property $duration $ease;
+    -moz-transition: $property $duration $ease;
+    -ms-transition: $property $duration $ease;
+}
+
+@mixin flex-position($display, $contet, $items) {
+    display: $display;
+    justify-content: $contet;
+    align-items: $items;
+}
+
+.wpc-col-reverse{
+    flex-direction: row-reverse !important;
+}
+.wpc-align-self-center{
+    align-self: center !important;
+}
+.wpc-p0{
+    padding: 0 !important;
+}
+.wpc-m0{
+    margin: 0 !important;
+}
+.wpc-none{
+    display: none;
+}
+
+// post bg iamge css
+.wpc-post-bg-img{
+    min-height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+

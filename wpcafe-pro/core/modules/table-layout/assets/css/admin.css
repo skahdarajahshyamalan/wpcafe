@@ -1,0 +1,143 @@
+/* admin css */
+:root {
+  --white-color: #fff;
+  --blue-color: #0073aa;
+  --gray-color: #e9eaed;
+  --yellow-color: #ffd12e;
+  --notice-color: #edc2d6;
+}
+
+/* .canvas-container{
+    height: 600px !important;
+} */
+.wpcafe_page_wpc_table_layout .wrap {
+  padding: 30px 20px 30px 0;
+}
+@media (min-width: 992px) {
+  .wpcafe_page_wpc_table_layout .wrap {
+    padding: 0 40px 40px 20px;
+  }
+}
+.wpcafe_page_wpc_table_layout .wrap .wpc-heading.medium {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.wpcafe_page_wpc_table_layout .wrap .wpc-table-notice {
+  padding: 5px 25px 5px;
+  border-radius: 6px;
+  position: relative;
+}
+.wpcafe_page_wpc_table_layout .wrap .wpc-table-notice::after {
+  position: absolute;
+  content: "i";
+  left: 0;
+  width: 18px;
+  height: 18px;
+  background: #f8272d;
+  text-align: center;
+  line-height: 18px;
+  border-radius: 50%;
+  color: #fff;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.wpc-table-main {
+  background-color: var(--white-color);
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.wpc-table-booking {
+  background-color: var(--gray-color);
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.wpc-table-canvas .canvas-container {
+  padding: 30px;
+  background-color: var(--white-color);
+  border-radius: 8px;
+  max-width: 100%;
+  width: 100%;
+}
+
+.wpc-table-wrap {
+  background: var(--gray-color);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+.wpc-table-wrap .wpc-table-content {
+  background-color: var(--white-color);
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.wpc-btn-wrap {
+  margin-bottom: 20px;
+}
+.wpc-btn-wrap .wpc-btn-text {
+  font-size: 14px;
+  margin-right: 10px;
+  display: inline-flex;
+  margin-bottom: 10px;
+}
+.wpc-btn-wrap .wpc-btn-text svg {
+  width: 16px;
+  height: 16px;
+  margin-left: 10px;
+}
+
+.wpc-label-bgimg .wpc-meta {
+  width: 175px;
+  min-height: 100px;
+  position: relative;
+}
+.wpc-label-bgimg .wpc-meta img {
+  width: 100%;
+  object-fit: cover;
+}
+.wpc-label-bgimg .wpc-meta .wpc-btn {
+  position: absolute;
+  left: 10px;
+  bottom: 20px;
+  background-color: var(--blue-color);
+  border: 1px solid var(--white-color);
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.wpc-label-bgimg .wpc-meta .wpc-btn .icon {
+  margin-left: 10px;
+}
+.wpc-label-bgimg .wpc-meta .wpc-img-rem-btn {
+  position: absolute;
+  right: -12px;
+  top: -8px;
+  width: 30px;
+  height: 30px;
+  line-height: 33px;
+  color: var(--white-color);
+  background-color: var(--wc-red);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.wpc-label-bgimg .wpc-meta .wpc-img-rem-btn:hover {
+  background-color: red;
+}
+
+.table-map-title {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  margin: 0 0 20px;
+  color: var(--dark-color);
+}
+
+.wpc-table-canvas {
+  background-image: url(../mapping.png) no-repeat center center cover;
+}

@@ -1,0 +1,51 @@
+<div class="wpc-row">
+    <?php 
+    foreach ($cats as $value) { 
+        ?>
+        <div class="wpc-col-lg-<?php echo esc_attr($grid_column); ?> wpc-col-md-6 ">
+            <?php    
+            $term       = get_term($value, $taxonomy);   
+            if( !empty($term->slug) ){
+                $term_link  = get_term_link($term->slug, $taxonomy);
+                $image      = get_term_meta($term->term_id);
+                $image_url  = '';
+                if (isset($image['thumbnail_id'][0])) {
+                    $image_url =  wp_get_attachment_image_url($image['thumbnail_id'][0], '',  $icon = false);
+                }
+                ?>
+                <div class="wpc-single-cat-item">
+                    <div class="wpc-cat-title-wrap">
+                        <h3 class="wpc-category-title">
+                            <a href="<?php echo esc_url($term_link); ?>">
+                                <?php
+                                echo esc_html($term->name);
+                                if ('yes' == $show_count) { ?>
+                                    <span class="menu-count">
+                                        ( <?php echo esc_html($term->count); ?> )
+                                    </span>
+                                <?php } ?>
+                            </a>
+    
+                        </h3>
+                        <a href="<?php echo esc_url($term_link); ?>" class="wpc-readmore-link">
+                            <i class="wpcafe-icon-arrow-right"></i>
+                        </a>
+    
+                    </div>
+                    <?php if (isset($image_url) && $image_url != '') : ?>
+                        <div class="wpc-cat-img">
+                            <div class="wpc-cat-thumb" style="background-image: url(<?php echo esc_url($image_url); ?>);">
+                                <a href="<?php echo esc_url($term_link); ?>" class="wpc-img-link"></a>
+                            </div>
+                        </div>
+                    <?php endif; ?>
+                    
+    
+                </div>
+                <?php
+            }   
+            ?>
+        </div>
+        <?php 
+    }  ?>
+</div>

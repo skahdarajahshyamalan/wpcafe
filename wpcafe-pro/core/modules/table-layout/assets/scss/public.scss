@@ -1,0 +1,111 @@
+/* public css */
+
+#wpc-canvas-container{
+    -webkit-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+    border: 1px solid #eaeaea;
+    overflow: hidden;
+  }
+ @media (max-width: 992px) {
+    #wpc-canvas-container{ 
+        overflow: scroll;
+      }
+ }
+ 
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 15px 0 20px;
+    @media (max-width: 768px) {
+        display: block;
+    }
+}
+
+.table-color-style {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    li {
+        border: 1px solid #E4E6EB;
+        border-radius: 6px;
+        padding: 10px 15px;
+        color: #101010;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &:not(:last-child) {
+            margin-right: 20px;
+        }
+        &.zoom {
+            cursor: pointer;
+        }
+        @media (max-width: 768px) {
+            margin-bottom: 10px;
+        }
+    }
+    span {
+        width: 18px;
+        height: 18px;
+        display: inline-block;
+        margin-right: 10px;
+        border-radius: 50%;
+        background-color: #ddd;
+    }
+    &.controls {
+        li {
+            width: 44px;
+            height: 44px;
+            line-height: 44px;
+            text-align: center;
+            padding: 13px;
+            &:not(:last-child){
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+@media(max-width: 767px){
+    div#table-layout-map {
+        padding-right: 30px;
+        position: relative;
+        &:after{
+            background-image: url(../up_down_arrow.svg);
+            content: "";
+            position: absolute;
+            right: 4px;
+            top: 1%;
+            width: 10px;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: contain;
+             background-position: center;
+        }
+    }
+}
+
+
+.wpc-visual-table-loader {
+    border: 3px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 3px solid black;
+    width: 90px;
+    height: 90px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    margin: auto;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

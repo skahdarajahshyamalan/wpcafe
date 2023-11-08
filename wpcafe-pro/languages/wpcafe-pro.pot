@@ -1,0 +1,4458 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Cafe Pro\n"
+"POT-Creation-Date: 2023-04-02 11:16+0400\n"
+"PO-Revision-Date: 2023-04-02 11:16+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wpcafe-pro.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: bootstrap.php:58
+#: core/template/woocommerce/single-product/add-to-cart/variable.php:46
+msgid "Clear"
+msgstr ""
+
+#: bootstrap.php:186
+msgid "Activate WpCafe"
+msgstr ""
+
+#: bootstrap.php:189
+msgid "Install WpCafe"
+msgstr ""
+
+#: bootstrap.php:199
+msgid "WpCafe Pro requires WpCafe  , which is currently NOT RUNNING."
+msgstr ""
+
+#: bootstrap.php:239 bootstrap.php:240
+msgid "License"
+msgstr ""
+
+#: bootstrap.php:273
+msgid ""
+"Please activate WpCafe Pro to get automatic updates and premium support."
+msgstr ""
+
+#: core/action/ajax-action.php:40
+#: core/modules/product-addons/admin/hooks.php:238
+#: core/modules/table-layout/settings/settings-api.php:30
+#: core/modules/tip/tip.php:79 core/modules/tip/tip.php:131
+msgid "Nonce is not valid! Please try again."
+msgstr ""
+
+#: core/action/ajax-action.php:58
+msgid "ok"
+msgstr ""
+
+#: core/action/ajax-action.php:69
+msgid "Get Directions"
+msgstr ""
+
+#: core/action/ajax-action.php:108
+#: widgets/menu-location-list/style/part/location.php:52
+msgid "Email: "
+msgstr ""
+
+#: core/action/ajax-action.php:122
+msgid "No store found in this location. Please try another location"
+msgstr ""
+
+#: core/action/ajax-action.php:128
+msgid "Nearby stores:"
+msgstr ""
+
+#: core/action/ajax-action.php:243
+msgid "No menu found"
+msgstr ""
+
+#: core/action/ajax-action.php:259
+msgid "Something went wrong"
+msgstr ""
+
+#: core/action/ajax-action.php:431 core/modules/food-menu/helper.php:167
+msgid "No data found"
+msgstr ""
+
+#: core/metaboxes/foodmenu-meta.php:24
+msgid "WpCafe Food Preparation and Delivery Time"
+msgstr ""
+
+#: core/metaboxes/foodmenu-meta.php:38
+msgid "Preparation time"
+msgstr ""
+
+#: core/metaboxes/foodmenu-meta.php:42
+msgid "Food item preparation time"
+msgstr ""
+
+#: core/metaboxes/foodmenu-meta.php:48
+#: core/modules/food-delivery/order-type/order-time.php:89
+#: core/template/food-menu.php:23 utils/utilities.php:761
+msgid "Delivery time"
+msgstr ""
+
+#: core/metaboxes/foodmenu-meta.php:52
+msgid "Food item delivery time"
+msgstr ""
+
+#: core/modules/food-delivery/order-amount.php:51
+#: core/modules/food-delivery/order-amount.php:70
+#, php-format
+msgid ""
+"Your current amount is %s,\n"
+"                 You need to add at least %s to place order"
+msgstr ""
+
+#: core/modules/food-delivery/order-type/order-time.php:22
+#: core/modules/food-delivery/order-type/order-type.php:190
+#: core/modules/food-delivery/order-type/order-type.php:194
+#: core/modules/food-delivery/order-type/order-type.php:206
+#: core/settings/views/menu-settings.php:14
+#: core/settings/views/order-time-settings.php:37 core/shortcodes/hook.php:1289
+#: core/template/food-menu.php:60
+#: widgets/menu-location-list/style/style-5.php:48
+#: widgets/pickup-delivery/pickup-delivery.php:55
+msgid "Pickup"
+msgstr ""
+
+#: core/modules/food-delivery/order-type/order-time.php:22
+#: core/modules/food-delivery/order-type/order-type.php:189
+#: core/modules/food-delivery/order-type/order-type.php:192
+#: core/modules/food-delivery/order-type/order-type.php:203
+#: core/settings/views/menu-settings.php:14
+#: core/settings/views/order-time-settings.php:37 core/shortcodes/hook.php:1291
+#: core/template/food-menu.php:61
+#: widgets/menu-location-list/style/style-5.php:47
+#: widgets/pickup-delivery/pickup-delivery.php:45
+msgid "Delivery"
+msgstr ""
+
+#: core/modules/food-delivery/order-type/order-time.php:39
+#: core/modules/food-delivery/order-type/order-type.php:275
+msgid "Please select pickup date"
+msgstr ""
+
+#: core/modules/food-delivery/order-type/order-time.php:40
+#: core/modules/food-delivery/order-type/order-type.php:265
+msgid "Please select delivery date"
+msgstr ""
+
+#: core/modules/food-delivery/order-type/order-time.php:72
+#: utils/utilities.php:760
+msgid "Delivery date"
+msgstr ""
+
+#: core/modules/food-delivery/order-type/order-time.php:133
+#: utils/utilities.php:762
+msgid "Pickup date"
+msgstr ""
+
+#: core/modules/food-delivery/order-type/order-time.php:153
+#: utils/utilities.php:763
+msgid "Pickup time"
+msgstr ""
+
+#: core/modules/food-delivery/order-type/order-type.php:113
+msgid "Checkout"
+msgstr ""
+
+#: core/modules/food-delivery/order-type/order-type.php:237
+#: core/modules/reservation/reservation-report.php:296
+msgid "Print"
+msgstr ""
+
+#: core/modules/food-delivery/order-type/order-type.php:238
+msgid "Download"
+msgstr ""
+
+#: core/modules/food-delivery/order-type/order-type.php:269
+msgid "Please select delivery time"
+msgstr ""
+
+#: core/modules/food-delivery/order-type/order-type.php:278
+msgid "Please select pickup time"
+msgstr ""
+
+#: core/modules/food-menu/food-discount.php:89
+msgid "You got exclusive discount on order total"
+msgstr ""
+
+#: core/modules/food-menu/food-discount.php:124
+#: core/modules/food-menu/food-discount.php:134 core/shortcodes/hook.php:389
+msgid "Discount "
+msgstr ""
+
+#: core/modules/food-menu/food-discount.php:135 core/shortcodes/hook.php:400
+#, php-format
+msgid "% off"
+msgstr ""
+
+#: core/modules/food-menu/food-discount.php:192
+msgid "Preparing Time: "
+msgstr ""
+
+#: core/modules/food-menu/food-discount.php:195
+msgid "Delivery Time: "
+msgstr ""
+
+#: core/modules/food-menu/food-discount.php:260
+msgid "Main price :"
+msgstr ""
+
+#: core/modules/food-menu/food-discount.php:360
+msgid "You got discount "
+msgstr ""
+
+#: core/modules/food-menu/food-discount.php:394
+#: core/modules/product-addons/frontend/inc/cart-hooks.php:184
+msgid "Main price"
+msgstr ""
+
+#: core/modules/food-menu/food-discount.php:396
+#: core/modules/product-addons/frontend/inc/cart-hooks.php:194
+msgid "Addons price"
+msgstr ""
+
+#: core/modules/food-menu/food-discount.php:402
+msgid "Price after discount"
+msgstr ""
+
+#: core/modules/food-menu/food-discount.php:413
+msgid "Preparing time "
+msgstr ""
+
+#: core/modules/food-menu/food-discount.php:417
+msgid "Delivery time "
+msgstr ""
+
+#: core/modules/food-menu/food-discount.php:436
+msgid "After money off "
+msgstr ""
+
+#: core/modules/food-menu/helper.php:117
+msgid "single image blank"
+msgstr ""
+
+#: core/modules/food-menu/helper.php:125
+msgid "product image"
+msgstr ""
+
+#: core/modules/food-menu/helper.php:139 core/modules/food-menu/helper.php:267
+msgid "No products found!"
+msgstr ""
+
+#: core/modules/food-menu/hooks.php:71 core/modules/food-menu/hooks.php:102
+#: core/modules/food-menu/hooks.php:114 core/modules/food-menu/hooks.php:166
+#: core/modules/table-layout/wpc-table-layout.php:81
+msgid "Table Name"
+msgstr ""
+
+#: core/modules/food-menu/hooks.php:112
+#: core/settings/views/menu-settings.php:19
+#: core/settings/views/order-time-settings.php:43
+msgid "Order Type"
+msgstr ""
+
+#: core/modules/food-menu/hooks.php:130
+msgid "Date / Time: "
+msgstr ""
+
+#: core/modules/food-menu/hooks.php:186 core/modules/food-menu/hooks.php:251
+msgid "Address"
+msgstr ""
+
+#: core/modules/food-menu/hooks.php:188 core/modules/food-menu/hooks.php:256
+msgid ""
+"Food location address. Note: From this address, latitude and longitude "
+"fields will be populated. After updating address, click the \"Address "
+"Position\" button to auto populate the latitude and longitude fields."
+msgstr ""
+
+#: core/modules/food-menu/hooks.php:192 core/modules/food-menu/hooks.php:262
+#: core/modules/food-menu/hooks.php:381
+#: core/modules/reservation-with-food/hooks.php:511
+#: core/modules/reservation/reservation-report.php:53
+#: core/modules/reservation/reservation-report.php:87
+msgid "Email"
+msgstr ""
+
+#: core/modules/food-menu/hooks.php:194 core/modules/food-menu/hooks.php:267
+msgid "Email of the location"
+msgstr ""
+
+#: core/modules/food-menu/hooks.php:198 core/modules/food-menu/hooks.php:273
+#: core/modules/food-menu/hooks.php:380
+msgid "Image"
+msgstr ""
+
+#: core/modules/food-menu/hooks.php:202 core/modules/food-menu/hooks.php:288
+msgid "Add Image"
+msgstr ""
+
+#: core/modules/food-menu/hooks.php:203 core/modules/food-menu/hooks.php:289
+msgid "Remove Image"
+msgstr ""
+
+#: core/modules/food-menu/hooks.php:208 core/modules/food-menu/hooks.php:297
+msgid "Latitude"
+msgstr ""
+
+#: core/modules/food-menu/hooks.php:210 core/modules/food-menu/hooks.php:307
+msgid "Latitude of the location"
+msgstr ""
+
+#: core/modules/food-menu/hooks.php:214 core/modules/food-menu/hooks.php:313
+msgid "Longitude"
+msgstr ""
+
+#: core/modules/food-menu/hooks.php:216 core/modules/food-menu/hooks.php:323
+msgid "Longitude of the location"
+msgstr ""
+
+#: core/modules/food-menu/hooks.php:226 core/modules/food-menu/hooks.php:336
+msgid "Settings"
+msgstr ""
+
+#: core/modules/food-menu/hooks.php:228 core/modules/food-menu/hooks.php:338
+msgid "Google Api Key is empty. Please fill the api key field from "
+msgstr ""
+
+#: core/modules/food-menu/hooks.php:232
+msgid "Address Map Position"
+msgstr ""
+
+#: core/modules/food-menu/hooks.php:233 core/modules/food-menu/hooks.php:343
+msgid "From address field value, Position will show in map."
+msgstr ""
+
+#: core/modules/food-menu/hooks.php:329
+msgid "Location Map"
+msgstr ""
+
+#: core/modules/food-menu/hooks.php:342
+msgid "Address Position"
+msgstr ""
+
+#: core/modules/food-menu/hooks.php:382
+msgid "Lat"
+msgstr ""
+
+#: core/modules/food-menu/hooks.php:383
+msgid "Long"
+msgstr ""
+
+#: core/modules/food-menu/hooks.php:433
+#: widgets/food-menu-tab/food-menu-tab.php:219
+#: widgets/menu-slider-classic/menu-slider-classic.php:199
+#: widgets/menus/menus.php:192
+msgid "Show Search"
+msgstr ""
+
+#: core/modules/food-menu/hooks.php:435
+#: widgets/category-list/category-list.php:123
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:102
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:114
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:125
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:145
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:156
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:168
+#: widgets/food-menu-slider/food-menu-slider.php:98
+#: widgets/food-menu-slider/food-menu-slider.php:124
+#: widgets/food-menu-slider/food-menu-slider.php:137
+#: widgets/food-menu-slider/food-menu-slider.php:157
+#: widgets/food-menu-slider/food-menu-slider.php:168
+#: widgets/food-menu-slider/food-menu-slider.php:180
+#: widgets/food-menu-slider/food-menu-slider.php:306
+#: widgets/food-menu-slider/food-menu-slider.php:317
+#: widgets/food-menu-tab/food-menu-tab.php:155
+#: widgets/food-menu-tab/food-menu-tab.php:167
+#: widgets/food-menu-tab/food-menu-tab.php:178
+#: widgets/food-menu-tab/food-menu-tab.php:198
+#: widgets/food-menu-tab/food-menu-tab.php:209
+#: widgets/food-menu-tab/food-menu-tab.php:221
+#: widgets/food-menu-tab/food-menu-tab.php:233
+#: widgets/menu-location-list/menu-location-list.php:130
+#: widgets/menu-slider-classic/menu-slider-classic.php:135
+#: widgets/menu-slider-classic/menu-slider-classic.php:147
+#: widgets/menu-slider-classic/menu-slider-classic.php:158
+#: widgets/menu-slider-classic/menu-slider-classic.php:178
+#: widgets/menu-slider-classic/menu-slider-classic.php:189
+#: widgets/menu-slider-classic/menu-slider-classic.php:201
+#: widgets/menu-slider-classic/menu-slider-classic.php:213
+#: widgets/menu-slider-classic/menu-slider-classic.php:822
+#: widgets/menu-slider-classic/menu-slider-classic.php:833
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:149
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:161
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:173
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:195
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:207
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:219
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:546
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:557
+#: widgets/menus/menus.php:128 widgets/menus/menus.php:140
+#: widgets/menus/menus.php:151 widgets/menus/menus.php:171
+#: widgets/menus/menus.php:183 widgets/menus/menus.php:194
+#: widgets/menus/menus.php:205
+#: widgets/reservation-with-food/reservation-with-food.php:139
+#: widgets/reservation-with-food/reservation-with-food.php:150
+#: widgets/reservation-with-food/reservation-with-food.php:161
+#: widgets/reservation-with-food/reservation-with-food.php:181
+#: widgets/reservation-with-food/reservation-with-food.php:192
+msgid "Show"
+msgstr ""
+
+#: core/modules/food-menu/hooks.php:436
+#: core/modules/product-addons/admin/templates/single-field.php:91
+#: widgets/category-list/category-list.php:124
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:103
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:115
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:126
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:146
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:157
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:169
+#: widgets/food-menu-slider/food-menu-slider.php:99
+#: widgets/food-menu-slider/food-menu-slider.php:125
+#: widgets/food-menu-slider/food-menu-slider.php:138
+#: widgets/food-menu-slider/food-menu-slider.php:158
+#: widgets/food-menu-slider/food-menu-slider.php:169
+#: widgets/food-menu-slider/food-menu-slider.php:181
+#: widgets/food-menu-slider/food-menu-slider.php:307
+#: widgets/food-menu-slider/food-menu-slider.php:318
+#: widgets/food-menu-tab/food-menu-tab.php:156
+#: widgets/food-menu-tab/food-menu-tab.php:168
+#: widgets/food-menu-tab/food-menu-tab.php:179
+#: widgets/food-menu-tab/food-menu-tab.php:199
+#: widgets/food-menu-tab/food-menu-tab.php:210
+#: widgets/food-menu-tab/food-menu-tab.php:222
+#: widgets/food-menu-tab/food-menu-tab.php:234
+#: widgets/menu-location-list/menu-location-list.php:131
+#: widgets/menu-slider-classic/menu-slider-classic.php:136
+#: widgets/menu-slider-classic/menu-slider-classic.php:148
+#: widgets/menu-slider-classic/menu-slider-classic.php:159
+#: widgets/menu-slider-classic/menu-slider-classic.php:179
+#: widgets/menu-slider-classic/menu-slider-classic.php:190
+#: widgets/menu-slider-classic/menu-slider-classic.php:202
+#: widgets/menu-slider-classic/menu-slider-classic.php:214
+#: widgets/menu-slider-classic/menu-slider-classic.php:823
+#: widgets/menu-slider-classic/menu-slider-classic.php:834
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:150
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:162
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:174
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:196
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:208
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:220
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:547
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:558
+#: widgets/menus/menus.php:129 widgets/menus/menus.php:141
+#: widgets/menus/menus.php:152 widgets/menus/menus.php:172
+#: widgets/menus/menus.php:184 widgets/menus/menus.php:195
+#: widgets/menus/menus.php:206
+#: widgets/reservation-with-food/reservation-with-food.php:140
+#: widgets/reservation-with-food/reservation-with-food.php:151
+#: widgets/reservation-with-food/reservation-with-food.php:162
+#: widgets/reservation-with-food/reservation-with-food.php:182
+#: widgets/reservation-with-food/reservation-with-food.php:193
+msgid "Hide"
+msgstr ""
+
+#: core/modules/order-notifications/hooks.php:46
+msgid "Something is wrong"
+msgstr ""
+
+#: core/modules/order-notifications/order-view.php:7
+msgid "post-"
+msgstr ""
+
+#: core/modules/order-notifications/order-view.php:20
+#: core/modules/order-notifications/order-view.php:84
+msgid "Preview"
+msgstr ""
+
+#: core/modules/order-notifications/order-view.php:21
+#: core/modules/order-notifications/order-view.php:73
+msgid "Recent"
+msgstr ""
+
+#. translators: %s: human-readable time difference
+#: core/modules/order-notifications/order-view.php:37
+#, php-format
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr ""
+
+#: core/modules/order-notifications/order-view.php:41
+msgid "M j, Y"
+msgstr ""
+
+#: core/modules/order-notifications/order-view.php:80
+msgid "Price : "
+msgstr ""
+
+#: core/modules/order-notifications/order-view.php:81
+msgid "Status : "
+msgstr ""
+
+#: core/modules/product-addons/admin/hooks.php:56
+msgid "Please fill the Option field"
+msgstr ""
+
+#: core/modules/product-addons/admin/hooks.php:57
+msgid "Please fill the Title field"
+msgstr ""
+
+#: core/modules/product-addons/admin/hooks.php:58
+#: core/modules/product-addons/admin/templates/price-option.php:18
+msgid "Option name"
+msgstr ""
+
+#: core/modules/product-addons/admin/hooks.php:58
+#: core/modules/product-addons/admin/templates/price-option.php:46
+msgid "Default selected"
+msgstr ""
+
+#: core/modules/product-addons/admin/hooks.php:59
+#: core/modules/product-addons/admin/templates/price-option.php:24
+msgid "Quantity Based"
+msgstr ""
+
+#: core/modules/product-addons/admin/hooks.php:70
+msgid "WPCafe Addons"
+msgstr ""
+
+#: core/modules/product-addons/admin/hooks.php:247
+msgid "New fields block is added successfully."
+msgstr ""
+
+#: core/modules/product-addons/admin/templates/fields-area.php:8
+msgid "Addon Fields"
+msgstr ""
+
+#: core/modules/product-addons/admin/templates/fields-area.php:30
+msgid "Add New Field"
+msgstr ""
+
+#: core/modules/product-addons/admin/templates/fields-area.php:37
+msgid "Global addons"
+msgstr ""
+
+#: core/modules/product-addons/admin/templates/settings/settings.php:3
+msgid "Product addons"
+msgstr ""
+
+#: core/modules/product-addons/admin/templates/settings/settings.php:21
+#: core/settings/views/discount-settings.php:107
+msgid "Include Categories"
+msgstr ""
+
+#: core/modules/product-addons/admin/templates/settings/settings.php:23
+msgid "Include all menu categories for product addons"
+msgstr ""
+
+#: core/modules/product-addons/admin/templates/settings/settings.php:53
+#: core/settings/views/discount-settings.php:69
+#: core/settings/views/special-menus.php:103
+msgid "Include Menus"
+msgstr ""
+
+#: core/modules/product-addons/admin/templates/settings/settings.php:55
+msgid "Include following menu items for product addons"
+msgstr ""
+
+#: core/modules/product-addons/admin/templates/settings/settings.php:103
+#: core/modules/table-layout/wpc-table-layout.php:76
+msgid "Save Changes"
+msgstr ""
+
+#: core/modules/product-addons/admin/templates/single-field.php:46
+#: core/modules/product-addons/admin/templates/single-field.php:181
+msgid "Type"
+msgstr ""
+
+#: core/modules/product-addons/admin/templates/single-field.php:47
+msgid "Set product addons input type"
+msgstr ""
+
+#: core/modules/product-addons/admin/templates/single-field.php:52
+#: core/settings/views/reservation-settings.php:115
+msgid "Checkbox"
+msgstr ""
+
+#: core/modules/product-addons/admin/templates/single-field.php:53
+msgid "Radio"
+msgstr ""
+
+#: core/modules/product-addons/admin/templates/single-field.php:54
+msgid "Dropdown"
+msgstr ""
+
+#: core/modules/product-addons/admin/templates/single-field.php:55
+msgid "Long Text"
+msgstr ""
+
+#: core/modules/product-addons/admin/templates/single-field.php:72
+#: core/modules/product-addons/admin/templates/single-field.php:77
+msgid "Title"
+msgstr ""
+
+#: core/modules/product-addons/admin/templates/single-field.php:73
+msgid "Add product addons title text"
+msgstr ""
+
+#: core/modules/product-addons/admin/templates/single-field.php:83
+msgid "Title Format"
+msgstr ""
+
+#: core/modules/product-addons/admin/templates/single-field.php:84
+msgid "Define title text format"
+msgstr ""
+
+#: core/modules/product-addons/admin/templates/single-field.php:89
+msgid "Label"
+msgstr ""
+
+#: core/modules/product-addons/admin/templates/single-field.php:90
+msgid "Heading"
+msgstr ""
+
+#: core/modules/product-addons/admin/templates/single-field.php:108
+msgid "Placeholder text"
+msgstr ""
+
+#: core/modules/product-addons/admin/templates/single-field.php:109
+msgid "Display reservation form only in the selected page"
+msgstr ""
+
+#: core/modules/product-addons/admin/templates/single-field.php:119
+#: core/settings/views/reservation-settings.php:155
+#: core/settings/views/reservation-settings.php:188
+msgid "Required"
+msgstr ""
+
+#: core/modules/product-addons/admin/templates/single-field.php:120
+msgid "Is this product addons required?"
+msgstr ""
+
+#: core/modules/product-addons/admin/templates/single-field.php:131
+msgid "Description"
+msgstr ""
+
+#: core/modules/product-addons/admin/templates/single-field.php:132
+msgid "Add product addons description"
+msgstr ""
+
+#: core/modules/product-addons/admin/templates/single-field.php:153
+msgid "Character limitation"
+msgstr ""
+
+#: core/modules/product-addons/admin/templates/single-field.php:162
+msgid "Min length"
+msgstr ""
+
+#: core/modules/product-addons/admin/templates/single-field.php:164
+msgid "Minimum length"
+msgstr ""
+
+#: core/modules/product-addons/admin/templates/single-field.php:167
+msgid "Max length"
+msgstr ""
+
+#: core/modules/product-addons/admin/templates/single-field.php:169
+msgid "Maximum length"
+msgstr ""
+
+#: core/modules/product-addons/admin/templates/single-field.php:178
+msgid "Options"
+msgstr ""
+
+#: core/modules/product-addons/admin/templates/single-field.php:184
+#: core/modules/reservation-with-food/hooks.php:150
+msgid "Price"
+msgstr ""
+
+#: core/modules/product-addons/admin/templates/single-field.php:203
+msgid "Add Option"
+msgstr ""
+
+#: core/modules/product-addons/frontend/inc/addon-control.php:138
+msgid "Product total"
+msgstr ""
+
+#: core/modules/product-addons/frontend/inc/addon-control.php:156
+msgid "Addons total"
+msgstr ""
+
+#: core/modules/product-addons/frontend/inc/addon-control.php:162
+msgid "Totals"
+msgstr ""
+
+#: core/modules/product-addons/frontend/inc/cart-hooks.php:190
+msgid "Total price after "
+msgstr ""
+
+#: core/modules/product-addons/frontend/inc/cart-hooks.php:190
+#, php-format
+msgid "% discount on "
+msgstr ""
+
+#: core/modules/product-addons/frontend/inc/cart-hooks.php:199
+msgid "After "
+msgstr ""
+
+#: core/modules/product-addons/frontend/inc/cart-hooks.php:199
+#, php-format
+msgid "% discount"
+msgstr ""
+
+#: core/modules/product-addons/frontend/inc/options/addons-field-list.php:23
+#, php-format
+msgid "\"%s\" is a required field."
+msgstr ""
+
+#: core/modules/product-addons/frontend/templates/addon-start.php:33
+#: core/modules/product-addons/frontend/templates/addon-start.php:46
+msgid "Required field"
+msgstr ""
+
+#: core/modules/product-addons/frontend/templates/addon-start.php:35
+#: core/modules/product-addons/frontend/templates/addon-start.php:48
+msgid "(This field is required)"
+msgstr ""
+
+#: core/modules/product-addons/frontend/templates/parts/radio.php:17
+msgid " None"
+msgstr ""
+
+#: core/modules/product-addons/frontend/templates/parts/select.php:9
+msgid "Select an option"
+msgstr ""
+
+#: core/modules/product-addons/frontend/templates/parts/select.php:9
+#: core/settings/views/menu-settings.php:14
+#: core/settings/views/order-time-settings.php:37
+msgid "None"
+msgstr ""
+
+#: core/modules/reservation-with-food/hooks.php:145
+msgid "Food details"
+msgstr ""
+
+#: core/modules/reservation-with-food/hooks.php:149
+#: core/modules/reservation-with-food/hooks.php:510
+#: core/modules/reservation/reservation-report.php:52
+#: core/modules/reservation/reservation-report.php:86
+msgid "Name"
+msgstr ""
+
+#: core/modules/reservation-with-food/hooks.php:188
+#: core/modules/reservation-with-food/hooks.php:231
+#: core/modules/reservation-with-food/hooks.php:316
+msgid "Reservation details"
+msgstr ""
+
+#: core/modules/reservation-with-food/hooks.php:219
+msgid "Are you sure to discard reservation?"
+msgstr ""
+
+#: core/modules/reservation-with-food/hooks.php:221
+#: widgets/resevation-form/resevation-form.php:636
+msgid "No"
+msgstr ""
+
+#: core/modules/reservation-with-food/hooks.php:222
+#: widgets/resevation-form/resevation-form.php:635
+msgid "Yes"
+msgstr ""
+
+#: core/modules/reservation-with-food/hooks.php:237
+#: core/modules/reservation-with-food/hooks.php:238
+msgid "food_"
+msgstr ""
+
+#: core/modules/reservation-with-food/hooks.php:246
+msgid "Discard Reservation"
+msgstr ""
+
+#: core/modules/reservation-with-food/hooks.php:313
+msgid "Update Reservation Details"
+msgstr ""
+
+#: core/modules/reservation-with-food/hooks.php:390
+msgid "This reservation includes food menu order. Click to see "
+msgstr ""
+
+#: core/modules/reservation-with-food/hooks.php:391
+msgid "Food Menu Order Details"
+msgstr ""
+
+#: core/modules/reservation-with-food/hooks.php:405
+msgid "Order Status"
+msgstr ""
+
+#: core/modules/reservation-with-food/hooks.php:406
+msgid "Current reservation status "
+msgstr ""
+
+#: core/modules/reservation-with-food/hooks.php:507
+msgid ""
+"Above order includes restaurant reservation. Reservation details are as "
+"follows: "
+msgstr ""
+
+#: core/modules/reservation-with-food/hooks.php:509
+msgid "Invoice No"
+msgstr ""
+
+#: core/modules/reservation-with-food/hooks.php:512
+#: core/modules/reservation/reservation-report.php:53
+#: core/modules/reservation/reservation-report.php:87
+msgid "Phone"
+msgstr ""
+
+#: core/modules/reservation-with-food/hooks.php:513
+#: core/modules/reservation/reservation-report.php:54
+#: core/modules/reservation/reservation-report.php:88
+#: core/settings/views/order-time-settings.php:417
+#: core/settings/views/order-time-settings.php:422
+#: core/settings/views/order-time-settings.php:433
+#: core/settings/views/order-time-settings.php:443
+#: core/settings/views/order-time-settings.php:484
+#: core/settings/views/order-time-settings.php:489
+#: core/settings/views/order-time-settings.php:500
+#: core/settings/views/order-time-settings.php:508
+#: core/settings/views/parts/delivery.php:208
+#: core/settings/views/parts/delivery.php:213
+#: core/settings/views/parts/delivery.php:224
+#: core/settings/views/parts/delivery.php:232
+#: core/settings/views/parts/pickup.php:203
+#: core/settings/views/parts/pickup.php:208
+#: core/settings/views/parts/pickup.php:219
+#: core/settings/views/parts/pickup.php:229
+#: core/settings/views/parts/reservation-holiday-settings.php:15
+#: core/settings/views/parts/reservation-holiday-settings.php:21
+#: core/settings/views/parts/reservation-holiday-settings.php:32
+#: core/settings/views/parts/reservation-holiday-settings.php:40
+#: core/shortcodes/views/reservation/reservation-visual-selection.php:50
+msgid "Date"
+msgstr ""
+
+#: core/modules/reservation-with-food/hooks.php:514
+#: core/shortcodes/hook.php:1002 core/shortcodes/hook.php:1168
+msgid "From"
+msgstr ""
+
+#: core/modules/reservation-with-food/hooks.php:515
+#: core/shortcodes/hook.php:1003 core/shortcodes/hook.php:1169
+msgid "To"
+msgstr ""
+
+#: core/modules/reservation-with-food/hooks.php:516
+msgid "Guest"
+msgstr ""
+
+#: core/modules/reservation-with-food/hooks.php:550
+#: core/settings/keyoptions.php:166 core/settings/keyoptions.php:185
+#: core/settings/keyoptions.php:220 core/settings/keyoptions.php:240
+msgid "Admin"
+msgstr ""
+
+#: core/modules/reservation-with-food/hooks.php:551
+msgid "Reservation status update"
+msgstr ""
+
+#: core/modules/reservation/hooks.php:125
+msgid "Reservation is closed . Please try another time."
+msgstr ""
+
+#: core/modules/reservation/hooks.php:149
+msgid "Our all seat is booked. Reservation is closed . Please try another time"
+msgstr ""
+
+#: core/modules/reservation/hooks.php:373
+msgid "From when?"
+msgstr ""
+
+#: core/modules/reservation/hooks.php:376
+msgid "Until?"
+msgstr ""
+
+#: core/modules/reservation/hooks.php:377
+#: core/settings/views/reservation-settings.php:9 core/shortcodes/hook.php:1178
+msgid "Book a table"
+msgstr ""
+
+#: core/modules/reservation/hooks.php:378
+#: core/settings/views/reservation-settings.php:10
+#: core/settings/views/reservation-settings.php:32
+#: core/shortcodes/hook.php:1008 core/shortcodes/hook.php:1179
+msgid "Confirm Booking"
+msgstr ""
+
+#: core/modules/reservation/hooks.php:379
+#: core/settings/views/reservation-settings.php:11
+#: core/settings/views/reservation-settings.php:42
+#: core/shortcodes/hook.php:1009 core/shortcodes/hook.php:1180
+#: core/shortcodes/views/reservation/style-1.php:37
+#: core/shortcodes/views/reservation/style-2.php:38
+msgid "Request Cancellation"
+msgstr ""
+
+#: core/modules/reservation/reservation-report.php:52
+#: core/modules/reservation/reservation-report.php:86
+msgid "Invoice"
+msgstr ""
+
+#: core/modules/reservation/reservation-report.php:54
+#: core/modules/reservation/reservation-report.php:88
+msgid "Seats"
+msgstr ""
+
+#: core/modules/reservation/reservation-report.php:55
+#: core/modules/reservation/reservation-report.php:89
+msgid "Status"
+msgstr ""
+
+#: core/modules/reservation/reservation-report.php:89
+msgid "Message"
+msgstr ""
+
+#: core/modules/reservation/reservation-report.php:90
+msgid "Booking time"
+msgstr ""
+
+#: core/modules/reservation/reservation-report.php:131
+msgid "Total Guest: "
+msgstr ""
+
+#: core/modules/reservation/reservation-report.php:176
+msgid "Export to CSV"
+msgstr ""
+
+#: core/modules/reservation/reservation-report.php:247
+msgid "Booking by date"
+msgstr ""
+
+#: core/modules/reservation/reservation-report.php:298
+msgid "Booking Details of "
+msgstr ""
+
+#: core/modules/reservation/reservation-report.php:304
+msgid "Reservation placing time"
+msgstr ""
+
+#: core/modules/reservation/reservation-report.php:340
+msgid "Booking status"
+msgstr ""
+
+#: core/modules/reservation/reservation-report.php:353
+msgid "Food Details"
+msgstr ""
+
+#: core/modules/reservation/reservation-report.php:362
+msgid "Name:"
+msgstr ""
+
+#: core/modules/reservation/reservation-report.php:363
+msgid "Quantity:"
+msgstr ""
+
+#: core/modules/reservation/reservation-report.php:377
+msgid "Total:"
+msgstr ""
+
+#: core/modules/table-layout/settings/settings-api.php:45
+#: core/modules/table-layout/wpc-table-layout.php:79
+msgid ""
+"You added the maximum of your seat. In order to add more, update seat "
+"capacity from settings."
+msgstr ""
+
+#: core/modules/table-layout/settings/settings-api.php:52
+#: core/modules/table-layout/wpc-table-layout.php:80
+msgid ""
+"Did you forget to insert the chair with the table? In order to proceed, you "
+"must insert the chair and connect with table."
+msgstr ""
+
+#: core/modules/table-layout/settings/settings-api.php:60
+msgid "Mapping data saved successfully."
+msgstr ""
+
+#: core/modules/table-layout/settings/settings-api.php:68
+msgid ""
+"Sorry! There's a problem in reservation schedule setting. Please check "
+"schedule and update."
+msgstr ""
+
+#: core/modules/table-layout/settings/settings-api.php:75
+msgid "You haven't authorization permission to update table layout mapping."
+msgstr ""
+
+#: core/modules/table-layout/settings/settings-api.php:214
+msgid "No mapping is done yet. Please draw mapping"
+msgstr ""
+
+#: core/modules/table-layout/settings/settings.php:38
+msgid "Table Reservation modules works only with single slot reservation."
+msgstr ""
+
+#: core/modules/table-layout/settings/settings.php:39
+#: core/settings/views/menu-settings.php:43
+msgid "Documentation"
+msgstr ""
+
+#: core/modules/table-layout/settings/settings.php:41
+msgid "Visual Table Mapping"
+msgstr ""
+
+#: core/modules/table-layout/wpc-table-layout.php:77
+msgid "Saving..."
+msgstr ""
+
+#: core/modules/table-layout/wpc-table-layout.php:78
+msgid "Loading..."
+msgstr ""
+
+#: core/modules/table-layout/wpc-table-layout.php:82
+msgid ""
+"Selected items contain some table/chair which are already booked. Deleting "
+"them may show inconsistent result in reservation list."
+msgstr ""
+
+#: core/modules/table-layout/wpc-table-layout.php:84
+#: core/settings/views/schedule-settings.php:89
+#: core/settings/views/schedule-settings.php:98
+#: core/settings/views/schedule-settings.php:109
+#: core/settings/views/schedule-settings.php:133
+#: core/settings/views/schedule-settings.php:136
+#: core/settings/views/schedule-settings.php:146
+#: core/settings/views/schedule-settings.php:177
+#: core/settings/views/schedule-settings.php:187
+#: core/settings/views/schedule-settings.php:201
+#: core/settings/views/schedule-settings.php:212
+msgid "Seat Capacity"
+msgstr ""
+
+#: core/modules/table-layout/wpc-table-layout.php:85
+msgid "Room Width"
+msgstr ""
+
+#: core/modules/table-layout/wpc-table-layout.php:86
+msgid "Room Height"
+msgstr ""
+
+#: core/modules/table-layout/wpc-table-layout.php:87
+msgid "Table Fill Color"
+msgstr ""
+
+#: core/modules/table-layout/wpc-table-layout.php:88
+msgid "Chair Fill Color"
+msgstr ""
+
+#: core/modules/table-layout/wpc-table-layout.php:89
+msgid "Text Fill Color"
+msgstr ""
+
+#: core/modules/table-layout/wpc-table-layout.php:90
+msgid "Selection Color"
+msgstr ""
+
+#: core/modules/table-layout/wpc-table-layout.php:91
+msgid "Booked Color"
+msgstr ""
+
+#: core/modules/table-layout/wpc-table-layout.php:92
+msgid "Room Background Image"
+msgstr ""
+
+#: core/modules/table-layout/wpc-table-layout.php:93
+msgid "Upload Image"
+msgstr ""
+
+#: core/modules/table-layout/wpc-table-layout.php:94
+msgid "Create Table Layout"
+msgstr ""
+
+#: core/modules/table-layout/wpc-table-layout.php:97
+msgid "Add Corner Table"
+msgstr ""
+
+#: core/modules/table-layout/wpc-table-layout.php:98
+msgid "Add Round Table"
+msgstr ""
+
+#: core/modules/table-layout/wpc-table-layout.php:99
+msgid "Add Chair"
+msgstr ""
+
+#: core/modules/table-layout/wpc-table-layout.php:100
+msgid "Add Text"
+msgstr ""
+
+#: core/modules/table-layout/wpc-table-layout.php:101
+#: core/modules/table-layout/wpc-table-layout.php:124
+msgid "Zoom In"
+msgstr ""
+
+#: core/modules/table-layout/wpc-table-layout.php:102
+#: core/modules/table-layout/wpc-table-layout.php:125
+msgid "Zoom Out"
+msgstr ""
+
+#: core/modules/table-layout/wpc-table-layout.php:103
+msgid "Delete Selected Item"
+msgstr ""
+
+#: core/modules/table-layout/wpc-table-layout.php:126
+msgid "Zoom Reset"
+msgstr ""
+
+#: core/modules/table-layout/wpc-table-layout.php:127
+msgid "Available Seats"
+msgstr ""
+
+#: core/modules/table-layout/wpc-table-layout.php:128
+msgid "Selected Seats"
+msgstr ""
+
+#: core/modules/table-layout/wpc-table-layout.php:129
+msgid "Unavailable Seats"
+msgstr ""
+
+#: core/modules/tip/tip-view.php:10 core/modules/tip/tip-view.php:15
+#: core/settings/views/tip-settings.php:7
+msgid "Fixed"
+msgstr ""
+
+#: core/modules/tip/tip-view.php:12 core/modules/tip/tip-view.php:16
+msgid "Percentage(%)"
+msgstr ""
+
+#: core/modules/tip/tip-view.php:34
+msgid "Would you like to give a tip?"
+msgstr ""
+
+#: core/modules/tip/tip-view.php:73
+msgid "Add Tip"
+msgstr ""
+
+#: core/modules/tip/tip-view.php:74
+msgid "Remove Tip"
+msgstr ""
+
+#: core/modules/tip/tip.php:106
+msgid "Tip is added successfully."
+msgstr ""
+
+#: core/modules/tip/tip.php:108
+msgid ""
+"There is some error in tip type selection and corresponding tip value! "
+"Please try again."
+msgstr ""
+
+#: core/modules/tip/tip.php:136
+msgid "Tip is removed successfully."
+msgstr ""
+
+#: core/modules/tip/tip.php:159
+msgid "Tip"
+msgstr ""
+
+#: core/settings/keyoptions.php:164
+msgid "Reservation confirmed. Invoice no. "
+msgstr ""
+
+#: core/settings/keyoptions.php:183
+msgid "Your reservation is confirmed.Invoice no. "
+msgstr ""
+
+#: core/settings/keyoptions.php:217 core/settings/keyoptions.php:237
+msgid "Reservation is cancelled. Invoice No: "
+msgstr ""
+
+#: core/settings/views/discount-settings.php:9
+msgid "You have already select percentage discount"
+msgstr ""
+
+#: core/settings/views/discount-settings.php:10
+msgid "You have already select standard discount"
+msgstr ""
+
+#: core/settings/views/discount-settings.php:33
+msgid "Percentage Discount"
+msgstr ""
+
+#: core/settings/views/discount-settings.php:34
+msgid ""
+"Percentage discount applies on simple products from includes menus and "
+"includes categories"
+msgstr ""
+
+#: core/settings/views/discount-settings.php:38
+msgid "Discount:"
+msgstr ""
+
+#: core/settings/views/discount-settings.php:40
+msgid "percent"
+msgstr ""
+
+#: core/settings/views/discount-settings.php:70
+msgid "Include the following menu items while calculating discounts:"
+msgstr ""
+
+#: core/settings/views/discount-settings.php:108
+msgid ""
+"Include all menu items belonging to the following categories while "
+"calculating discounts:"
+msgstr ""
+
+#: core/settings/views/discount-settings.php:127
+msgid "Or"
+msgstr ""
+
+#: core/settings/views/discount-settings.php:132
+msgid "Standard Discount:"
+msgstr ""
+
+#: core/settings/views/discount-settings.php:133
+msgid ""
+"Standard discount be applies on total purchase. It will apply to all menus "
+"and categories"
+msgstr ""
+
+#: core/settings/views/discount-settings.php:135
+msgid "If total order >=:"
+msgstr ""
+
+#: core/settings/views/discount-settings.php:137
+msgid "get:"
+msgstr ""
+
+#: core/settings/views/discount-settings.php:139
+msgid "off"
+msgstr ""
+
+#: core/settings/views/discount-settings.php:149
+msgid "Total amount"
+msgstr ""
+
+#: core/settings/views/discount-settings.php:150
+msgid "Addons total amount"
+msgstr ""
+
+#: core/settings/views/discount-settings.php:155
+msgid "Addon discount applicable to?"
+msgstr ""
+
+#: core/settings/views/discount-settings.php:156
+msgid "You can set addon discount to total amount, sum of addons total amount."
+msgstr ""
+
+#: core/settings/views/hook-settings-reservation.php:14
+#: core/settings/views/hook-settings-reservation.php:48
+#: core/settings/views/hook-settings-reservation.php:205
+#: core/settings/views/hook-settings.php:135
+#: core/settings/views/hook-settings.php:201
+#: core/settings/views/hook-settings.php:271
+#: core/settings/views/hook-settings.php:374
+#: core/settings/views/hook-settings.php:491
+msgid "Select Template"
+msgstr ""
+
+#: core/settings/views/hook-settings-reservation.php:16
+msgid " Reservation Form Pro"
+msgstr ""
+
+#: core/settings/views/hook-settings-reservation.php:22
+#: core/settings/views/hook-settings-reservation.php:56
+#: core/settings/views/hook-settings.php:143
+#: core/settings/views/hook-settings.php:209
+#: core/settings/views/hook-settings.php:280
+#: core/settings/views/hook-settings.php:383
+#: core/settings/views/hook-settings.php:499
+msgid "Select Style"
+msgstr ""
+
+#: core/settings/views/hook-settings-reservation.php:35
+msgid "Reservation Form (Pro)"
+msgstr ""
+
+#: core/settings/views/hook-settings-reservation.php:50
+msgid "Visual Reservation"
+msgstr ""
+
+#: core/settings/views/hook-settings-reservation.php:69
+msgid "Reservation Form with Visual Table/Seat Selection (Pro)"
+msgstr ""
+
+#: core/settings/views/hook-settings-reservation.php:81
+#: core/settings/views/hook-settings.php:13
+msgid "Select Reservation Template"
+msgstr ""
+
+#: core/settings/views/hook-settings-reservation.php:83
+#: core/settings/views/hook-settings.php:15
+msgid "Reservation Pro"
+msgstr ""
+
+#: core/settings/views/hook-settings-reservation.php:90
+#: core/settings/views/hook-settings.php:22
+msgid "Select Food Template"
+msgstr ""
+
+#: core/settings/views/hook-settings-reservation.php:93
+#: core/settings/views/hook-settings.php:25
+msgid "Food Menu List"
+msgstr ""
+
+#: core/settings/views/hook-settings-reservation.php:94
+#: core/settings/views/hook-settings.php:26
+msgid "Food Menu Tab"
+msgstr ""
+
+#: core/settings/views/hook-settings-reservation.php:107
+#: core/settings/views/hook-settings.php:39
+msgid "Select reservation template Style"
+msgstr ""
+
+#: core/settings/views/hook-settings-reservation.php:115
+#: core/settings/views/hook-settings.php:47
+msgid "Select food template Style"
+msgstr ""
+
+#: core/settings/views/hook-settings-reservation.php:126
+#: core/settings/views/hook-settings.php:58
+#: core/settings/views/hook-settings.php:289
+#: core/settings/views/hook-settings.php:392
+#: core/settings/views/hook-settings.php:508
+msgid "Order"
+msgstr ""
+
+#: core/settings/views/hook-settings-reservation.php:132
+#: core/settings/views/hook-settings.php:64
+#: core/settings/views/hook-settings.php:295
+#: core/settings/views/hook-settings.php:399
+#: core/settings/views/hook-settings.php:514
+msgid "Product Count"
+msgstr ""
+
+#: core/settings/views/hook-settings-reservation.php:140
+#: core/settings/views/hook-settings.php:72
+#: core/settings/views/hook-settings.php:152
+#: core/settings/views/hook-settings.php:227
+#: core/settings/views/hook-settings.php:303
+#: core/settings/views/hook-settings.php:413
+#: core/settings/views/hook-settings.php:522
+msgid "Select Category"
+msgstr ""
+
+#: core/settings/views/hook-settings-reservation.php:149
+#: core/settings/views/hook-settings.php:81
+#: core/settings/views/hook-settings.php:315
+#: core/settings/views/hook-settings.php:426
+#: core/settings/views/hook-settings.php:532
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:123
+#: widgets/food-menu-slider/food-menu-slider.php:135
+#: widgets/food-menu-tab/food-menu-tab.php:176
+#: widgets/menu-slider-classic/menu-slider-classic.php:156
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:171
+#: widgets/menus/menus.php:149
+#: widgets/reservation-with-food/reservation-with-food.php:159
+msgid "Show Description"
+msgstr ""
+
+#: core/settings/views/hook-settings-reservation.php:153
+#: core/settings/views/hook-settings.php:85
+#: core/settings/views/hook-settings.php:319
+#: core/settings/views/hook-settings.php:430
+#: core/settings/views/hook-settings.php:536
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:134
+#: widgets/food-menu-slider/food-menu-slider.php:146
+#: widgets/food-menu-tab/food-menu-tab.php:187
+#: widgets/menu-slider-classic/menu-slider-classic.php:167
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:183
+#: widgets/menus/menus.php:160
+#: widgets/reservation-with-food/reservation-with-food.php:170
+msgid "Description Limit"
+msgstr ""
+
+#: core/settings/views/hook-settings-reservation.php:160
+#: core/settings/views/hook-settings.php:92
+msgid "Enable title link?"
+msgstr ""
+
+#: core/settings/views/hook-settings-reservation.php:162
+#: core/settings/views/hook-settings.php:94
+msgid "Show item status?"
+msgstr ""
+
+#: core/settings/views/hook-settings-reservation.php:167
+#: core/settings/views/hook-settings.php:99
+#: core/settings/views/hook-settings.php:334
+#: core/settings/views/hook-settings.php:445
+#: core/settings/views/hook-settings.php:550
+msgid "Show Product Thumbnail"
+msgstr ""
+
+#: core/settings/views/hook-settings-reservation.php:169
+#: core/settings/views/hook-settings.php:101
+msgid "Show cart button"
+msgstr ""
+
+#: core/settings/views/hook-settings-reservation.php:180
+#: core/settings/views/hook-settings.php:112
+msgid "Food With Reservation (Pro)"
+msgstr ""
+
+#: core/settings/views/hook-settings-reservation.php:188
+#: core/settings/views/hook-settings.php:120
+msgid "Generate Shortcode"
+msgstr ""
+
+#: core/settings/views/hook-settings-reservation.php:207
+msgid " Business Hours"
+msgstr ""
+
+#: core/settings/views/hook-settings-reservation.php:212
+msgid "Select All days schedule"
+msgstr ""
+
+#: core/settings/views/hook-settings-reservation.php:221
+msgid "Business Hours (Pro)"
+msgstr ""
+
+#: core/settings/views/hook-settings-reservation.php:222
+msgid ""
+"Time slot will be generate from reservation schedule and Title from \n"
+"    Reservation Schedule=>\"Business Hour Label\" "
+msgstr ""
+
+#: core/settings/views/hook-settings.php:137
+msgid "Category List Template"
+msgstr ""
+
+#: core/settings/views/hook-settings.php:159
+msgid "Hide empty"
+msgstr ""
+
+#: core/settings/views/hook-settings.php:165
+msgid "Category Limit (its work when category not selected)"
+msgstr ""
+
+#: core/settings/views/hook-settings.php:170
+#: core/settings/views/hook-settings.php:239
+#: widgets/category-list/category-list.php:121
+#: widgets/menu-location-list/menu-location-list.php:128
+msgid "Show Count"
+msgstr ""
+
+#: core/settings/views/hook-settings.php:177
+#: core/settings/views/hook-settings.php:245
+#: widgets/category-list/category-list.php:77
+#: widgets/menu-location-list/menu-location-list.php:79
+msgid "Column"
+msgstr ""
+
+#: core/settings/views/hook-settings.php:188
+msgid "Category List (Pro)"
+msgstr ""
+
+#: core/settings/views/hook-settings.php:203
+msgid "Location List Template"
+msgstr ""
+
+#: core/settings/views/hook-settings.php:217
+msgid "Location Limit (its work when Location not selected)"
+msgstr ""
+
+#: core/settings/views/hook-settings.php:234
+msgid "Hide Empty"
+msgstr ""
+
+#: core/settings/views/hook-settings.php:257
+msgid "Location List (Pro)"
+msgstr ""
+
+#: core/settings/views/hook-settings.php:273
+msgid " Food Menu List"
+msgstr ""
+
+#: core/settings/views/hook-settings.php:274
+msgid " Food Menu Tab"
+msgstr ""
+
+#: core/settings/views/hook-settings.php:310
+msgid "Show Live Search"
+msgstr ""
+
+#: core/settings/views/hook-settings.php:327
+#: core/settings/views/hook-settings.php:438
+#: core/settings/views/hook-settings.php:543
+msgid "Enable Title Link?"
+msgstr ""
+
+#: core/settings/views/hook-settings.php:329
+#: core/settings/views/hook-settings.php:440
+#: core/settings/views/hook-settings.php:545
+msgid "Show Item Status?"
+msgstr ""
+
+#: core/settings/views/hook-settings.php:336
+#: core/settings/views/hook-settings.php:447
+#: core/settings/views/hook-settings.php:552
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:166
+#: widgets/food-menu-slider/food-menu-slider.php:178
+#: widgets/food-menu-tab/food-menu-tab.php:231
+#: widgets/menu-slider-classic/menu-slider-classic.php:211
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:217
+#: widgets/menus/menus.php:203
+msgid "Show Cart Button"
+msgstr ""
+
+#: core/settings/views/hook-settings.php:342
+#: core/settings/views/hook-settings.php:459
+msgid "Show Delivery Time"
+msgstr ""
+
+#: core/settings/views/hook-settings.php:346
+msgid "Nav Position (only for tab style) "
+msgstr ""
+
+#: core/settings/views/hook-settings.php:348
+#: core/settings/views/hook-settings.php:465
+#: widgets/food-menu-tab/food-menu-tab.php:311
+msgid "Top"
+msgstr ""
+
+#: core/settings/views/hook-settings.php:349
+#: core/settings/views/hook-settings.php:466
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:663
+#: widgets/food-menu-tab/food-menu-tab.php:279
+#: widgets/food-menu-tab/food-menu-tab.php:309
+#: widgets/food-menu-tab/food-menu-tab.php:1055
+#: widgets/menu-slider-classic/menu-slider-classic.php:788
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:275
+#: widgets/menus/menus.php:705
+msgid "Left"
+msgstr ""
+
+#: core/settings/views/hook-settings.php:350
+#: core/settings/views/hook-settings.php:467
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:671
+#: widgets/food-menu-tab/food-menu-tab.php:287
+#: widgets/food-menu-tab/food-menu-tab.php:310
+#: widgets/food-menu-tab/food-menu-tab.php:1063
+#: widgets/menu-slider-classic/menu-slider-classic.php:796
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:283
+#: widgets/menus/menus.php:713
+msgid "Right"
+msgstr ""
+
+#: core/settings/views/hook-settings.php:361
+msgid "Food Menu List and Tab(Pro)"
+msgstr ""
+
+#: core/settings/views/hook-settings.php:376
+msgid " Tab with Slider"
+msgstr ""
+
+#: core/settings/views/hook-settings.php:377
+msgid " Menu Slider"
+msgstr ""
+
+#: core/settings/views/hook-settings.php:405
+msgid "Slider Count"
+msgstr ""
+
+#: core/settings/views/hook-settings.php:420
+msgid "Auto Play"
+msgstr ""
+
+#: core/settings/views/hook-settings.php:451
+msgid "Show Slider Nav"
+msgstr ""
+
+#: core/settings/views/hook-settings.php:453
+msgid "Show Slider Dot Pagination"
+msgstr ""
+
+#: core/settings/views/hook-settings.php:463
+msgid "Nav Position(only for tab style) "
+msgstr ""
+
+#: core/settings/views/hook-settings.php:478
+msgid "Food Menu Slider(Pro)"
+msgstr ""
+
+#: core/settings/views/hook-settings.php:493
+msgid " Food Menu Loadmore"
+msgstr ""
+
+#: core/settings/views/hook-settings.php:559
+msgid "Show Delivery Time "
+msgstr ""
+
+#: core/settings/views/hook-settings.php:571
+msgid "Food Menu Loadmore(Pro)"
+msgstr ""
+
+#: core/settings/views/key-settings.php:6
+msgid "Total Confirmed"
+msgstr ""
+
+#: core/settings/views/key-settings.php:6
+msgid "Total Pending"
+msgstr ""
+
+#: core/settings/views/key-settings.php:18
+msgid "Reservation Close State"
+msgstr ""
+
+#: core/settings/views/key-settings.php:19
+msgid ""
+"Reservation request can be closed either maximum confirmed booking or "
+"maximum pending booking request"
+msgstr ""
+
+#: core/settings/views/license-settings.php:17
+msgid "Marketplace"
+msgstr ""
+
+#: core/settings/views/license-settings.php:20
+msgid "Select the marketplace from where you bought the premium version"
+msgstr ""
+
+#: core/settings/views/license-settings.php:28
+msgid "Select Marketplace"
+msgstr ""
+
+#: core/settings/views/license-settings.php:29
+msgid "CodeCanyon"
+msgstr ""
+
+#. Author of the plugin/theme
+#: core/settings/views/license-settings.php:30
+msgid "Themewinter"
+msgstr ""
+
+#: core/settings/views/license-settings.php:36
+msgid "save marketplace for future use"
+msgstr ""
+
+#: core/settings/views/license-settings.php:44
+msgid "For CodeCanyon Platform"
+msgstr ""
+
+#: core/settings/views/license-settings.php:49
+msgid "No license key is required for CodeCanyon users. You can only use "
+msgstr ""
+
+#: core/settings/views/license-settings.php:50
+msgid "Envato Market"
+msgstr ""
+
+#: core/settings/views/license-settings.php:51
+msgid " plugin to get auto update of premium version "
+msgstr ""
+
+#: core/settings/views/license-settings.php:63
+msgid "For Themewinter Platform"
+msgstr ""
+
+#: core/settings/views/license-settings.php:67
+msgid "If you don"
+msgstr ""
+
+#: core/settings/views/license-settings.php:67
+msgid "t yet have a license key, get "
+msgstr ""
+
+#: core/settings/views/license-settings.php:67
+msgid "WPCafe Pro"
+msgstr ""
+
+#: core/settings/views/license-settings.php:67
+msgid " now."
+msgstr ""
+
+#: core/settings/views/license-settings.php:68
+msgid "Log in to your "
+msgstr ""
+
+#: core/settings/views/license-settings.php:68
+msgid "Themewinter account"
+msgstr ""
+
+#: core/settings/views/license-settings.php:68
+msgid " to get your license key."
+msgstr ""
+
+#: core/settings/views/license-settings.php:69
+msgid "Copy the license key from your account and paste it below."
+msgstr ""
+
+#: core/settings/views/license-settings.php:70
+msgid "Follow the "
+msgstr ""
+
+#: core/settings/views/license-settings.php:71
+msgid "Official Documentation"
+msgstr ""
+
+#: core/settings/views/license-settings.php:72
+msgid "for details "
+msgstr ""
+
+#: core/settings/views/license-settings.php:81
+#, php-format
+msgid "Congratulations! Your product is activated for \"%s\""
+msgstr ""
+
+#: core/settings/views/license-settings.php:83
+msgid "Revoke License"
+msgstr ""
+
+#: core/settings/views/license-settings.php:98
+msgid "Your License Key"
+msgstr ""
+
+#: core/settings/views/license-settings.php:101
+msgid "Enter your license key here, to get auto updates."
+msgstr ""
+
+#: core/settings/views/license-settings.php:117
+msgid "Activate License"
+msgstr ""
+
+#: core/settings/views/license-settings.php:121
+msgid "Still can"
+msgstr ""
+
+#: core/settings/views/license-settings.php:121
+msgid "t find your license key? "
+msgstr ""
+
+#: core/settings/views/license-settings.php:121
+msgid "Knock us here!"
+msgstr ""
+
+#: core/settings/views/live-order-notification.php:21
+msgid "Enable Order Notification?"
+msgstr ""
+
+#: core/settings/views/live-order-notification.php:22
+msgid "Do you want to enable order notification in admin?"
+msgstr ""
+
+#: core/settings/views/live-order-notification.php:32
+msgid "Enable Sound Notification?"
+msgstr ""
+
+#: core/settings/views/live-order-notification.php:33
+msgid "Do you want to enable a sound notification for new orders?"
+msgstr ""
+
+#: core/settings/views/live-order-notification.php:42
+msgid "Upload Custom Sound File"
+msgstr ""
+
+#: core/settings/views/live-order-notification.php:43
+msgid "Upload a custom sound notification audio file"
+msgstr ""
+
+#: core/settings/views/live-order-notification.php:54
+msgid "Enable Repeated Sound?"
+msgstr ""
+
+#: core/settings/views/live-order-notification.php:55
+msgid "Do you want to enable repeated sound notification until open the order?"
+msgstr ""
+
+#: core/settings/views/live-order-notification.php:64
+msgid "Repeat Interval"
+msgstr ""
+
+#: core/settings/views/live-order-notification.php:65
+msgid "Interval in Minutes"
+msgstr ""
+
+#: core/settings/views/menu-settings.php:14
+#: core/settings/views/order-time-settings.php:37
+#: core/settings/views/tip-settings.php:7
+msgid "Both"
+msgstr ""
+
+#: core/settings/views/menu-settings.php:20
+#: core/settings/views/order-time-settings.php:44
+msgid "You can set \"Delivery\", \"Pickup\", \"Both\" or \"None\" for users."
+msgstr ""
+
+#: core/settings/views/menu-settings.php:32
+#: core/settings/views/order-time-settings.php:65
+msgid "Order Preparation Days"
+msgstr ""
+
+#: core/settings/views/menu-settings.php:33
+#: core/settings/views/order-time-settings.php:66
+msgid ""
+"If it takes more than a day to prepare your order, then mention how many "
+"days it took to prepare your order for delivery (Applies to all orders)"
+msgstr ""
+
+#: core/settings/views/menu-settings.php:42
+msgid "Google Map Api Key"
+msgstr ""
+
+#: core/settings/views/menu-settings.php:45
+msgid "Api key here"
+msgstr ""
+
+#: core/settings/views/menu-settings.php:54
+msgid "Auto Complete Order Address In Checkout"
+msgstr ""
+
+#: core/settings/views/menu-settings.php:55
+msgid ""
+"Auto complete address from Google map. You need Google map service to use "
+"the feature"
+msgstr ""
+
+#: core/settings/views/menu-settings.php:64
+msgid "Minimum Order Amount"
+msgstr ""
+
+#: core/settings/views/menu-settings.php:65
+msgid "Minimum order amount to place order"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:9
+msgid "Visit"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:10
+msgid "documentation"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:11
+msgid ""
+"for order time management section to maintain selling time of your "
+"restaurant."
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:19
+msgid "General Settings"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:24
+msgid "Time Settings"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:29
+msgid "Holiday Settings"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:56
+#: core/settings/views/parts/delivery.php:19
+msgid "Delivery Message"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:57
+#: core/settings/views/parts/delivery.php:20
+msgid ""
+"During checkout, if a customer selects the ‘delivery’ option, this message "
+"will show up. If you keep it blank, no message will appear. This option will "
+"work only if you allow order type \"Delivery\" from settings."
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:75
+#: core/settings/views/order-time-settings.php:126
+#: core/settings/views/parts/delivery.php:30
+msgid "Allow Delivery Date?"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:76
+#: core/settings/views/order-time-settings.php:127
+#: core/settings/views/parts/delivery.php:31
+msgid "You can enable the delivery date option"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:85
+#: core/settings/views/parts/delivery.php:40
+msgid "Allow Delivery Time?"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:86
+#: core/settings/views/parts/delivery.php:41
+msgid "You can enable the delivery time option"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:95
+#: core/settings/views/parts/pickup.php:22
+msgid "Allow Pickup Date?"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:96
+#: core/settings/views/parts/pickup.php:23
+msgid "You can enable the pickup date option"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:105
+#: core/settings/views/parts/pickup.php:32
+msgid "Allow Pickup Time?"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:106
+#: core/settings/views/parts/pickup.php:33
+msgid "You can enable the pickup time option"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:142
+#: core/settings/views/parts/pickup.php:49
+msgid "Pickup Weekly Schedule"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:143
+#: core/settings/views/parts/pickup.php:50
+msgid "Set pickup weekly schedule"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:147
+#: core/settings/views/parts/pickup.php:54
+msgid ""
+"Pickup Weekly (Use this option to set customized schedule for one or "
+"multiple days)"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:165
+#: core/settings/views/order-time-settings.php:175
+#: core/settings/views/order-time-settings.php:208
+#: core/settings/views/order-time-settings.php:222
+#: core/settings/views/order-time-settings.php:292
+#: core/settings/views/order-time-settings.php:302
+#: core/settings/views/order-time-settings.php:335
+#: core/settings/views/parts/delivery.php:88
+#: core/settings/views/parts/delivery.php:98
+#: core/settings/views/parts/delivery.php:131
+#: core/settings/views/parts/pickup.php:72
+#: core/settings/views/parts/pickup.php:82
+#: core/settings/views/parts/pickup.php:115
+#: core/settings/views/parts/pickup.php:129
+#: core/settings/views/schedule-settings.php:86
+#: core/settings/views/schedule-settings.php:109
+#: core/settings/views/schedule-settings.php:130
+#: core/settings/views/schedule-settings.php:136
+#: core/settings/views/schedule-settings.php:146
+#: core/settings/views/schedule-settings.php:174
+#: core/settings/views/schedule-settings.php:184
+#: core/settings/views/schedule-settings.php:198
+#: core/settings/views/schedule-settings.php:209
+msgid "Start Time"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:166
+#: core/settings/views/order-time-settings.php:211
+#: core/settings/views/order-time-settings.php:222
+#: core/settings/views/order-time-settings.php:293
+#: core/settings/views/order-time-settings.php:308
+#: core/settings/views/order-time-settings.php:338
+#: core/settings/views/parts/delivery.php:89
+#: core/settings/views/parts/delivery.php:104
+#: core/settings/views/parts/delivery.php:134
+#: core/settings/views/parts/pickup.php:73
+#: core/settings/views/parts/pickup.php:118
+#: core/settings/views/parts/pickup.php:129
+#: core/settings/views/schedule-settings.php:87
+#: core/settings/views/schedule-settings.php:109
+#: core/settings/views/schedule-settings.php:131
+#: core/settings/views/schedule-settings.php:146
+#: core/settings/views/schedule-settings.php:175
+#: core/settings/views/schedule-settings.php:185
+#: core/settings/views/schedule-settings.php:199
+#: core/settings/views/schedule-settings.php:210
+msgid "End Time"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:177
+#: core/settings/views/order-time-settings.php:183
+#: core/settings/views/order-time-settings.php:304
+#: core/settings/views/order-time-settings.php:310
+#: core/settings/views/parts/delivery.php:100
+#: core/settings/views/parts/delivery.php:106
+#: core/settings/views/parts/pickup.php:84
+#: core/settings/views/parts/pickup.php:90
+msgid "This field should be filled up"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:181
+#: core/settings/views/order-time-settings.php:349
+#: core/settings/views/parts/delivery.php:145
+#: core/settings/views/parts/pickup.php:88
+#: core/settings/views/schedule-settings.php:96
+#: core/settings/views/schedule-settings.php:136
+#: core/shortcodes/views/reservation/reservation-visual-selection.php:10
+#: core/shortcodes/views/reservation/reservation-with-food/style-1.php:12
+#: core/shortcodes/views/reservation/style-1.php:55
+#: core/shortcodes/views/reservation/style-2.php:56
+msgid "End time"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:186
+#: core/settings/views/order-time-settings.php:213
+#: core/settings/views/order-time-settings.php:222
+#: core/settings/views/order-time-settings.php:313
+#: core/settings/views/order-time-settings.php:340
+#: core/settings/views/order-time-settings.php:349
+#: core/settings/views/order-time-settings.php:490
+#: core/settings/views/order-time-settings.php:501
+#: core/settings/views/order-time-settings.php:509
+#: core/settings/views/parts/delivery.php:109
+#: core/settings/views/parts/delivery.php:136
+#: core/settings/views/parts/delivery.php:145
+#: core/settings/views/parts/delivery.php:214
+#: core/settings/views/parts/delivery.php:225
+#: core/settings/views/parts/delivery.php:233
+#: core/settings/views/parts/pickup.php:93
+#: core/settings/views/parts/pickup.php:120
+#: core/settings/views/parts/pickup.php:129
+#: core/settings/views/reservation-settings.php:169
+#: core/settings/views/reservation-settings.php:203
+#: core/settings/views/reservation-settings.php:212
+#: core/settings/views/schedule-settings.php:99
+#: core/settings/views/schedule-settings.php:109
+#: core/settings/views/schedule-settings.php:134
+#: core/settings/views/schedule-settings.php:136
+#: core/settings/views/schedule-settings.php:146
+#: core/settings/views/schedule-settings.php:188
+#: core/settings/views/schedule-settings.php:202
+#: core/settings/views/schedule-settings.php:213
+msgid "Reset Fields"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:222
+#: core/settings/views/order-time-settings.php:340
+#: core/settings/views/order-time-settings.php:349
+#: core/settings/views/parts/delivery.php:136
+#: core/settings/views/parts/delivery.php:145
+#: core/settings/views/parts/pickup.php:129
+#: core/settings/views/schedule-settings.php:136
+#: core/settings/views/schedule-settings.php:146
+msgid "Remove Fields"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:222
+#: core/settings/views/order-time-settings.php:349
+#: core/settings/views/parts/delivery.php:145
+#: core/settings/views/parts/pickup.php:129
+msgid "Add more weekly schedule"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:222
+#: core/settings/views/order-time-settings.php:349
+#: core/settings/views/parts/delivery.php:145
+#: core/settings/views/parts/pickup.php:129
+#: core/settings/views/schedule-settings.php:95
+#: core/shortcodes/views/reservation/reservation-visual-selection.php:10
+#: core/shortcodes/views/reservation/reservation-with-food/style-1.php:12
+#: core/shortcodes/views/reservation/style-1.php:55
+#: core/shortcodes/views/reservation/style-2.php:56
+msgid "Start time"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:223
+#: core/settings/views/order-time-settings.php:350
+#: core/settings/views/order-time-settings.php:445
+#: core/settings/views/order-time-settings.php:510
+#: core/settings/views/parts/delivery.php:146
+#: core/settings/views/parts/delivery.php:234
+#: core/settings/views/parts/pickup.php:130
+#: core/settings/views/parts/pickup.php:231
+#: core/settings/views/parts/reservation-holiday-settings.php:42
+#: core/settings/views/qrcode-settings.php:64
+#: core/settings/views/reservation-settings.php:214
+#: core/settings/views/schedule-settings.php:147
+#: core/settings/views/schedule-settings.php:216
+#: core/settings/views/tip-settings.php:83
+msgid "Add"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:242
+#: core/settings/views/parts/pickup.php:149
+msgid "Pickup Time Interval"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:243
+#: core/settings/views/parts/pickup.php:150
+msgid "Set pickup schedule time interval in checkout page"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:261
+#: core/settings/views/parts/delivery.php:57
+msgid "Delivery Weekly Schedule"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:262
+#: core/settings/views/parts/delivery.php:58
+msgid "Set delivery weekly schedule"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:266
+#: core/settings/views/parts/delivery.php:62
+msgid ""
+"Delivery Weekly (Set opening and closing schedule for each day of a week "
+"separately)"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:283
+#: core/settings/views/parts/delivery.php:79
+msgid "Sat"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:284
+#: core/settings/views/parts/delivery.php:80
+msgid "Sun"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:285
+#: core/settings/views/parts/delivery.php:81
+msgid "Mon"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:286
+#: core/settings/views/parts/delivery.php:82
+msgid "Tue"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:287
+#: core/settings/views/parts/delivery.php:83
+msgid "Wed"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:288
+#: core/settings/views/parts/delivery.php:84
+msgid "Thu"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:289
+#: core/settings/views/parts/delivery.php:85
+msgid "Fri"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:340
+#: core/settings/views/order-time-settings.php:423
+#: core/settings/views/order-time-settings.php:434
+#: core/settings/views/order-time-settings.php:444
+#: core/settings/views/parts/delivery.php:136
+#: core/settings/views/parts/pickup.php:209
+#: core/settings/views/parts/pickup.php:220
+#: core/settings/views/parts/pickup.php:230
+#: core/settings/views/parts/reservation-holiday-settings.php:22
+#: core/settings/views/parts/reservation-holiday-settings.php:33
+#: core/settings/views/parts/reservation-holiday-settings.php:41
+#: core/settings/views/qrcode-settings.php:63
+#: core/settings/views/tip-settings.php:63
+#: core/settings/views/tip-settings.php:74
+#: core/settings/views/tip-settings.php:82
+msgid "Reset fields"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:362
+#: core/settings/views/parts/delivery.php:158
+msgid "Delivery Time Interval"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:363
+#: core/settings/views/parts/delivery.php:159
+msgid "Set delivery time interval in checkout page"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:383
+#: core/settings/views/parts/pickup.php:169
+msgid "Pickup on Weekly Holiday"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:384
+#: core/settings/views/parts/pickup.php:170
+msgid "Set a pickup day for weekly holidays"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:408
+#: core/settings/views/parts/pickup.php:194
+msgid "Pickup Holiday"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:409
+#: core/settings/views/parts/pickup.php:195
+msgid "Set a pickup date for specific holiday"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:442
+#: core/settings/views/parts/pickup.php:228
+msgid "Add more day"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:453
+#: core/settings/views/parts/delivery.php:177
+msgid "Delivery on Weekly Holiday"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:454
+#: core/settings/views/parts/delivery.php:178
+msgid "Set a delivery day for weekly holiday"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:476
+#: core/settings/views/parts/delivery.php:200
+msgid "Delivery Holiday"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:477
+#: core/settings/views/parts/delivery.php:201
+msgid "Set a delivery day for a specific weekly holiday"
+msgstr ""
+
+#: core/settings/views/order-time-settings.php:508
+#: core/settings/views/parts/delivery.php:232
+msgid "Add More Day"
+msgstr ""
+
+#: core/settings/views/parts/branch-email-settings.php:9
+msgid "Send to Branch Email?"
+msgstr ""
+
+#: core/settings/views/parts/branch-email-settings.php:10
+msgid "It will send and receive emails by location's email address."
+msgstr ""
+
+#: core/settings/views/parts/extra-field-checkbox.php:14
+#: core/settings/views/parts/extra-field-checkbox.php:31
+#: core/settings/views/reservation-settings.php:212
+msgid "Checkbox text"
+msgstr ""
+
+#: core/settings/views/parts/extra-field-checkbox.php:34
+msgid "Add Checkbox"
+msgstr ""
+
+#: core/settings/views/parts/integrations.php:14
+msgid "Enable Zapier?"
+msgstr ""
+
+#: core/settings/views/parts/integrations.php:15
+msgid "Integrate zapier with reservation form"
+msgstr ""
+
+#: core/settings/views/parts/integrations.php:23
+#: core/settings/views/parts/integrations.php:43
+msgid "Web Hooks"
+msgstr ""
+
+#: core/settings/views/parts/integrations.php:24
+msgid "Enter here zapier web hook"
+msgstr ""
+
+#: core/settings/views/parts/integrations.php:34
+msgid "Enable Pabbly?"
+msgstr ""
+
+#: core/settings/views/parts/integrations.php:35
+msgid "Integrate pabbly with reservation form"
+msgstr ""
+
+#: core/settings/views/parts/integrations.php:44
+msgid "Enter here pabbly web hook."
+msgstr ""
+
+#: core/settings/views/parts/pickup.php:12
+msgid "Pickup Message"
+msgstr ""
+
+#: core/settings/views/parts/pickup.php:13
+msgid ""
+"During checkout, if a customer selects the ‘Pickup’ option, this message "
+"will show up. If you keep it blank, no message will appear. This option will "
+"work only if you allow order type \"Pickup\" from settings."
+msgstr ""
+
+#: core/settings/views/parts/reservation-general.php:11
+msgid "Business Hour Label"
+msgstr ""
+
+#: core/settings/views/parts/reservation-general.php:12
+msgid ""
+"Show business hour title. You can leave it empty if you wish. Time slot will "
+"be shown from Reservation Schedule."
+msgstr ""
+
+#: core/settings/views/parts/reservation-holiday-settings.php:6
+msgid "Holiday Schedule"
+msgstr ""
+
+#: core/settings/views/parts/reservation-holiday-settings.php:7
+msgid "Set the holidays"
+msgstr ""
+
+#: core/settings/views/parts/reservation-holiday-settings.php:40
+msgid "Add another day"
+msgstr ""
+
+#: core/settings/views/parts/style.php:10
+msgid "Menu PopUp Icon"
+msgstr ""
+
+#: core/settings/views/parts/style.php:11
+msgid ""
+"Icon class for product addons, variable product. Any icon library which is "
+"available in your site will work. Example:  font-awesome, dash-icon etc."
+msgstr ""
+
+#: core/settings/views/parts/style.php:13
+msgid "icon here"
+msgstr ""
+
+#: core/settings/views/parts/style.php:23
+msgid "Product Variation List Layout Override?"
+msgstr ""
+
+#: core/settings/views/parts/style.php:24
+msgid ""
+"You can override WooComerce product variation layout in popup and single page"
+msgstr ""
+
+#: core/settings/views/parts/style.php:33
+msgid "Override WooCommerce Default Layout?"
+msgstr ""
+
+#: core/settings/views/parts/style.php:34
+msgid ""
+"You can override WooComerce default layout (Product Details, Cart, Checkout "
+"and Thank you page)"
+msgstr ""
+
+#: core/settings/views/qrcode-settings.php:13
+msgid "Food Menu QR Code"
+msgstr ""
+
+#: core/settings/views/qrcode-settings.php:14
+msgid ""
+"Add the table name or table id, and the page URL. With that, the first 2 "
+"parameters will show up during the QR Code scan."
+msgstr ""
+
+#: core/settings/views/qrcode-settings.php:25
+#: core/settings/views/qrcode-settings.php:46
+msgid "Table Name/ID"
+msgstr ""
+
+#: core/settings/views/qrcode-settings.php:28
+#: core/settings/views/qrcode-settings.php:49
+msgid "Enter table name/ID"
+msgstr ""
+
+#: core/settings/views/qrcode-settings.php:31
+msgid "Enter Your page url"
+msgstr ""
+
+#: core/settings/views/qrcode-settings.php:34
+#: core/settings/views/qrcode-settings.php:52
+#: core/settings/views/qrcode-settings.php:63
+msgid "Enter page URL"
+msgstr ""
+
+#: core/settings/views/qrcode-settings.php:51
+msgid "Enter Page URL"
+msgstr ""
+
+#: core/settings/views/reservation-settings.php:19
+msgid "Reservation Form Button Text"
+msgstr ""
+
+#: core/settings/views/reservation-settings.php:20
+msgid "Show booking button text for the first section in reservation form"
+msgstr ""
+
+#: core/settings/views/reservation-settings.php:22
+msgid "Book a Table"
+msgstr ""
+
+#: core/settings/views/reservation-settings.php:29
+msgid "Reservation Confirm Booking Button Text"
+msgstr ""
+
+#: core/settings/views/reservation-settings.php:30
+msgid "Show confirm booking button text in reservation form"
+msgstr ""
+
+#: core/settings/views/reservation-settings.php:39
+msgid "Reservation Cancellation Button Text"
+msgstr ""
+
+#: core/settings/views/reservation-settings.php:40
+msgid "Show reservation cancellation button text in reservation form"
+msgstr ""
+
+#: core/settings/views/reservation-settings.php:50
+msgid "Show \"Start Time\" Field?"
+msgstr ""
+
+#: core/settings/views/reservation-settings.php:51
+msgid "Show/hide form time field in reservation form"
+msgstr ""
+
+#: core/settings/views/reservation-settings.php:60
+msgid "Required \"Start Time\" Field?"
+msgstr ""
+
+#: core/settings/views/reservation-settings.php:61
+msgid "Required/Optional form time field in reservation form"
+msgstr ""
+
+#: core/settings/views/reservation-settings.php:69
+msgid "Start Time Field Label Text"
+msgstr ""
+
+#: core/settings/views/reservation-settings.php:70
+msgid "Show \"Start Time\" field label text in reservation form"
+msgstr ""
+
+#: core/settings/views/reservation-settings.php:72
+msgid "Start"
+msgstr ""
+
+#: core/settings/views/reservation-settings.php:80
+msgid "Show \"End Time\" Field?"
+msgstr ""
+
+#: core/settings/views/reservation-settings.php:81
+msgid "Show/Hide \"End Time\" field in reservation form"
+msgstr ""
+
+#: core/settings/views/reservation-settings.php:90
+msgid "Required \"End Time\" Field?"
+msgstr ""
+
+#: core/settings/views/reservation-settings.php:91
+msgid "Required/Optional \"End Time\" field in reservation form"
+msgstr ""
+
+#: core/settings/views/reservation-settings.php:99
+msgid "End Time Field Label Text"
+msgstr ""
+
+#: core/settings/views/reservation-settings.php:100
+msgid "Show \"End Time\" field label text in reservation form"
+msgstr ""
+
+#: core/settings/views/reservation-settings.php:102
+msgid "End"
+msgstr ""
+
+#: core/settings/views/reservation-settings.php:114
+msgid "Text"
+msgstr ""
+
+#: core/settings/views/reservation-settings.php:127
+msgid "Extra Field"
+msgstr ""
+
+#: core/settings/views/reservation-settings.php:128
+msgid ""
+"Add unlimited extra fields. Extra fields will be added in reservation form"
+msgstr ""
+
+#: core/settings/views/reservation-settings.php:142
+msgid "Required?"
+msgstr ""
+
+#: core/settings/views/reservation-settings.php:143
+msgid "Field Type"
+msgstr ""
+
+#: core/settings/views/reservation-settings.php:144
+#: core/settings/views/reservation-settings.php:167
+#: core/settings/views/reservation-settings.php:201
+msgid "Label Text"
+msgstr ""
+
+#: core/settings/views/reservation-settings.php:145
+#: core/settings/views/reservation-settings.php:168
+#: core/settings/views/reservation-settings.php:202
+#: core/settings/views/reservation-settings.php:211
+msgid "Placeholder Text"
+msgstr ""
+
+#: core/settings/views/reservation-settings.php:154
+#: core/settings/views/reservation-settings.php:187
+msgid "Optional"
+msgstr ""
+
+#: core/settings/views/reservation-settings.php:210
+#: core/settings/views/schedule-settings.php:209
+msgid "Add More"
+msgstr ""
+
+#: core/settings/views/reservation-settings.php:210
+msgid "Label text"
+msgstr ""
+
+#: core/settings/views/reservation-settings.php:213
+msgid " Add Checkbox"
+msgstr ""
+
+#: core/settings/views/schedule-settings.php:18
+msgid "Reservation Multi-slot Schedule?"
+msgstr ""
+
+#: core/settings/views/schedule-settings.php:19
+msgid "Select single slot or multi-slot schedule in reservation form"
+msgstr ""
+
+#: core/settings/views/schedule-settings.php:36
+msgid "Select Reservation Schedule"
+msgstr ""
+
+#: core/settings/views/schedule-settings.php:37
+msgid "Select day slot or weekly slot schedule in multi-slot schedule"
+msgstr ""
+
+#: core/settings/views/schedule-settings.php:43
+msgid "Weekly Schedule"
+msgstr ""
+
+#: core/settings/views/schedule-settings.php:49
+msgid "Everyday Schedule"
+msgstr ""
+
+#: core/settings/views/schedule-settings.php:56
+msgid "Time already exist. Please select another day."
+msgstr ""
+
+#: core/settings/views/schedule-settings.php:57
+msgid "day exist. Please check another day"
+msgstr ""
+
+#: core/settings/views/schedule-settings.php:59
+msgid "You have already set everyday schedule. Please unset everyday schedule."
+msgstr ""
+
+#: core/settings/views/schedule-settings.php:63
+msgid ""
+"Weekly (set multiple opening and closing schedule for each day of a week "
+"separately)"
+msgstr ""
+
+#: core/settings/views/schedule-settings.php:88
+#: core/settings/views/schedule-settings.php:97
+#: core/settings/views/schedule-settings.php:109
+#: core/settings/views/schedule-settings.php:132
+#: core/settings/views/schedule-settings.php:136
+#: core/settings/views/schedule-settings.php:146
+#: core/settings/views/schedule-settings.php:176
+#: core/settings/views/schedule-settings.php:186
+#: core/settings/views/schedule-settings.php:200
+#: core/settings/views/schedule-settings.php:211
+msgid "Schedule Name"
+msgstr ""
+
+#: core/settings/views/schedule-settings.php:109
+msgid "Remove schedule"
+msgstr ""
+
+#: core/settings/views/schedule-settings.php:136
+#: core/settings/views/schedule-settings.php:146
+msgid "Add Same Day Schedule"
+msgstr ""
+
+#: core/settings/views/schedule-settings.php:146
+msgid "Add Different Day Schedule"
+msgstr ""
+
+#: core/settings/views/schedule-settings.php:157
+msgid "You have already set weekly schedule. Please unset weekly schedule."
+msgstr ""
+
+#: core/settings/views/schedule-settings.php:162
+msgid "Reservation Multi-slot Schedule for Each Day"
+msgstr ""
+
+#: core/settings/views/schedule-settings.php:163
+msgid ""
+"All schedule slots applies in each days except exceptional days.\n"
+"                                If you change single slot/ multi slot . You "
+"need to change Maximum party size from \"Key options\" "
+msgstr ""
+
+#: core/settings/views/schedule-settings.php:214
+msgid "Remove schedule for each days"
+msgstr ""
+
+#: core/settings/views/schedule-settings.php:229
+msgid "Seat Capacity for Single Slot"
+msgstr ""
+
+#: core/settings/views/schedule-settings.php:230
+msgid ""
+"If you use single slot schedule option, this will be counted as the total "
+"seat capacity of your restaurant."
+msgstr ""
+
+#: core/settings/views/schedule-settings.php:236
+msgid "No. of Guests"
+msgstr ""
+
+#: core/settings/views/special-menus.php:4
+#: core/settings/views/special-menus.php:128
+msgid "Order Now"
+msgstr ""
+
+#: core/settings/views/special-menus.php:14
+msgid "Enable Special Menus?"
+msgstr ""
+
+#: core/settings/views/special-menus.php:15
+msgid "Do you want to enable special menus for your restaurant?"
+msgstr ""
+
+#: core/settings/views/special-menus.php:32
+#: core/settings/views/special-menus.php:42
+msgid "PopUp Duration"
+msgstr ""
+
+#: core/settings/views/special-menus.php:33
+#: core/settings/views/special-menus.php:43
+msgid "Special menu popup duration"
+msgstr ""
+
+#: core/settings/views/special-menus.php:57
+msgid "Special menu title"
+msgstr ""
+
+#: core/settings/views/special-menus.php:58
+msgid "Special menu heading popup"
+msgstr ""
+
+#: core/settings/views/special-menus.php:61
+msgid "Special Day Title"
+msgstr ""
+
+#: core/settings/views/special-menus.php:63
+msgid "Holiday Special"
+msgstr ""
+
+#: core/settings/views/special-menus.php:67
+msgid "Discount/Offer"
+msgstr ""
+
+#: core/settings/views/special-menus.php:69
+msgid "30% Off"
+msgstr ""
+
+#: core/settings/views/special-menus.php:73
+msgid "Offer Duration"
+msgstr ""
+
+#: core/settings/views/special-menus.php:75
+msgid "Only For Today"
+msgstr ""
+
+#: core/settings/views/special-menus.php:104
+msgid "Include following menu items for special menu offer"
+msgstr ""
+
+#: core/settings/views/special-menus.php:119
+msgid "Activate WooCommerce to get the list of the menus."
+msgstr ""
+
+#: core/settings/views/special-menus.php:125
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:178
+#: widgets/food-menu-slider/food-menu-slider.php:203
+#: widgets/food-menu-tab/food-menu-tab.php:244
+#: widgets/menu-slider-classic/menu-slider-classic.php:236
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:242
+#: widgets/menus/menus.php:215
+msgid "Button Text"
+msgstr ""
+
+#: core/settings/views/special-menus.php:126
+msgid "Button text for special menu popup"
+msgstr ""
+
+#: core/settings/views/special-menus.php:135
+msgid "Button Link"
+msgstr ""
+
+#: core/settings/views/special-menus.php:136
+msgid "Button link to go the page"
+msgstr ""
+
+#: core/settings/views/tip-settings.php:7
+msgid "Percentage"
+msgstr ""
+
+#: core/settings/views/tip-settings.php:19
+msgid "Enable Tip?"
+msgstr ""
+
+#: core/settings/views/tip-settings.php:20
+msgid ""
+"Do you want to enable the tip/donation option on cart and checkout pages?"
+msgstr ""
+
+#: core/settings/views/tip-settings.php:28
+msgid "Allow Tip for"
+msgstr ""
+
+#: core/settings/views/tip-settings.php:29
+msgid "You can set tip percentage/fixed or both"
+msgstr ""
+
+#: core/settings/views/tip-settings.php:47
+msgid "Custom Tip Percentage"
+msgstr ""
+
+#: core/settings/views/tip-settings.php:48
+msgid "Add custom value for tip percentage"
+msgstr ""
+
+#: core/settings/views/tip-settings.php:62
+#: core/settings/views/tip-settings.php:73
+#: core/settings/views/tip-settings.php:82
+msgid "Add Tip Percentage"
+msgstr ""
+
+#: core/shortcodes/hook.php:137 core/shortcodes/hook.php:152
+#: core/shortcodes/hook.php:197 core/shortcodes/hook.php:212
+msgid "Choose an option"
+msgstr ""
+
+#: core/shortcodes/hook.php:476
+msgid " Preparing time : "
+msgstr ""
+
+#: core/shortcodes/hook.php:486
+msgid " Delivery time : "
+msgstr ""
+
+#: core/shortcodes/hook.php:730
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:882
+msgid "Load More..."
+msgstr ""
+
+#: core/shortcodes/hook.php:1230
+msgid ""
+"Visual table reservations (mapping) work on single-slot reservations only."
+msgstr ""
+
+#: core/shortcodes/hook.php:1268
+msgid "Search"
+msgstr ""
+
+#: core/shortcodes/hook.php:1286
+msgid "What Type Want"
+msgstr ""
+
+#: core/shortcodes/hook.php:1296
+msgid "Categories"
+msgstr ""
+
+#: core/shortcodes/hook.php:1355
+msgid "Price Range"
+msgstr ""
+
+#: core/shortcodes/hook.php:1363
+msgid "Reset"
+msgstr ""
+
+#: core/shortcodes/views/food-menu/business-hour.php:31
+msgid "Schedule is not set"
+msgstr ""
+
+#: core/shortcodes/views/food-menu/business-hour.php:45
+msgid "Schedule "
+msgstr ""
+
+#: core/shortcodes/views/food-menu/business-hour.php:119
+#: core/shortcodes/views/food-menu/business-hour.php:203
+msgid "Today's schedule is not set"
+msgstr ""
+
+#: core/shortcodes/views/food-menu/business-hour.php:262
+msgid "Our Holidays"
+msgstr ""
+
+#: core/shortcodes/views/food-menu/business-hour.php:269
+msgid ", Day: "
+msgstr ""
+
+#: core/shortcodes/views/live-search/live-search.php:12
+msgid "Search here"
+msgstr ""
+
+#: core/shortcodes/views/mini-cart/cross-sell.php:13
+msgid "Frequently bought togather"
+msgstr ""
+
+#: core/shortcodes/views/reservation/reservation-details.php:5
+msgid "Which branch of our restaurant?"
+msgstr ""
+
+#: core/shortcodes/views/reservation/reservation-details.php:16
+msgid "Select Your Reservation Date"
+msgstr ""
+
+#: core/shortcodes/views/reservation/reservation-details.php:17
+#: core/shortcodes/views/reservation/reservation-visual-selection.php:51
+msgid "Booking date here"
+msgstr ""
+
+#: core/shortcodes/views/reservation/reservation-details.php:36
+#: core/shortcodes/views/reservation/reservation-visual-selection.php:65
+msgid "Start time here"
+msgstr ""
+
+#: core/shortcodes/views/reservation/reservation-details.php:50
+#: core/shortcodes/views/reservation/reservation-visual-selection.php:79
+msgid "End time here"
+msgstr ""
+
+#: core/shortcodes/views/reservation/reservation-details.php:59
+msgid "How Many People are coming? "
+msgstr ""
+
+#: core/shortcodes/views/reservation/reservation-details.php:61
+msgid "Select no. of guests"
+msgstr ""
+
+#: core/shortcodes/views/reservation/reservation-personal-info.php:3
+msgid "Enter Your Full Name"
+msgstr ""
+
+#: core/shortcodes/views/reservation/reservation-personal-info.php:4
+#: core/shortcodes/views/reservation/reservation-visual-selection.php:122
+msgid "Name here"
+msgstr ""
+
+#: core/shortcodes/views/reservation/reservation-personal-info.php:12
+#: core/shortcodes/views/reservation/reservation-visual-selection.php:135
+msgid "How can we contact you?"
+msgstr ""
+
+#: core/shortcodes/views/reservation/reservation-personal-info.php:15
+#: core/shortcodes/views/reservation/reservation-visual-selection.php:138
+msgid "Phone Number here"
+msgstr ""
+
+#: core/shortcodes/views/reservation/reservation-personal-info.php:21
+msgid "Enter Your Email"
+msgstr ""
+
+#: core/shortcodes/views/reservation/reservation-personal-info.php:22
+#: core/shortcodes/views/reservation/reservation-visual-selection.php:129
+msgid "Email here"
+msgstr ""
+
+#: core/shortcodes/views/reservation/reservation-personal-info.php:29
+#: core/shortcodes/views/reservation/reservation-visual-selection.php:150
+msgid "Additional Information"
+msgstr ""
+
+#: core/shortcodes/views/reservation/reservation-personal-info.php:30
+#: core/shortcodes/views/reservation/reservation-visual-selection.php:151
+msgid "Enter Your Message here"
+msgstr ""
+
+#: core/shortcodes/views/reservation/reservation-visual-selection.php:9
+#: core/shortcodes/views/reservation/reservation-with-food/style-1.php:11
+#: core/shortcodes/views/reservation/style-1.php:54
+#: core/shortcodes/views/reservation/style-2.php:55
+msgid "Booking end time must be after start time"
+msgstr ""
+
+#: core/shortcodes/views/reservation/reservation-visual-selection.php:10
+#: core/shortcodes/views/reservation/reservation-with-food/style-1.php:12
+#: core/shortcodes/views/reservation/style-1.php:56
+#: core/shortcodes/views/reservation/style-2.php:57
+msgid "Schedule"
+msgstr ""
+
+#: core/shortcodes/views/reservation/reservation-visual-selection.php:11
+#: core/shortcodes/views/reservation/reservation-with-food/style-1.php:12
+#: core/shortcodes/views/reservation/style-1.php:57
+#: core/shortcodes/views/reservation/style-2.php:58
+#, php-format
+msgid "You can book up until %s minutes before closing time"
+msgstr ""
+
+#: core/shortcodes/views/reservation/reservation-visual-selection.php:13
+#: core/shortcodes/views/reservation/reservation-with-food/style-1.php:14
+#: core/shortcodes/views/reservation/style-1.php:59
+#: core/shortcodes/views/reservation/style-2.php:60
+msgid "Please select a date first"
+msgstr ""
+
+#: core/shortcodes/views/reservation/reservation-visual-selection.php:29
+msgid "Edit Booking"
+msgstr ""
+
+#: core/shortcodes/views/reservation/reservation-visual-selection.php:30
+#: core/shortcodes/views/reservation/style-1.php:133
+#: core/shortcodes/views/reservation/style-2.php:167
+msgid "Book Again"
+msgstr ""
+
+#: core/shortcodes/views/reservation/reservation-visual-selection.php:106
+msgid "Which branch of our restaurant"
+msgstr ""
+
+#: core/shortcodes/views/reservation/reservation-visual-selection.php:121
+msgid "Your Name"
+msgstr ""
+
+#: core/shortcodes/views/reservation/reservation-visual-selection.php:128
+msgid "Your Email"
+msgstr ""
+
+#: core/shortcodes/views/reservation/reservation-with-food/style-1.php:22
+#: core/shortcodes/views/reservation/reservation-with-food/style-1.php:76
+msgid "Reservation Details :"
+msgstr ""
+
+#: core/shortcodes/views/reservation/reservation-with-food/style-1.php:28
+msgid "Personal Details :"
+msgstr ""
+
+#: core/shortcodes/views/reservation/reservation-with-food/style-1.php:37
+#: core/shortcodes/views/reservation/reservation-with-food/style-1.php:70
+msgid "Next Step"
+msgstr ""
+
+#: core/shortcodes/views/reservation/reservation-with-food/style-1.php:67
+#: core/shortcodes/views/reservation/reservation-with-food/style-1.php:83
+#: core/shortcodes/views/reservation/style-1.php:90
+#: core/shortcodes/views/reservation/style-1.php:104
+#: core/shortcodes/views/reservation/style-2.php:101
+#: core/shortcodes/views/reservation/style-2.php:107
+#: core/shortcodes/views/reservation/style-2.php:131
+#: core/shortcodes/views/reservation/style-2.php:137
+msgid "Previous"
+msgstr ""
+
+#: core/shortcodes/views/reservation/reservation-with-food/style-1.php:86
+msgid "Checkout to Confirm Your Reservation"
+msgstr ""
+
+#: core/shortcodes/views/reservation/style-1.php:31
+#: core/shortcodes/views/reservation/style-2.php:32
+msgid "Book A Table"
+msgstr ""
+
+#: core/shortcodes/views/reservation/style-1.php:74
+#: core/shortcodes/views/reservation/style-1.php:93
+#: core/shortcodes/views/reservation/style-2.php:75
+#: core/shortcodes/views/reservation/style-2.php:112
+msgid "Next"
+msgstr ""
+
+#: core/shortcodes/views/reservation/style-1.php:87
+#: core/shortcodes/views/reservation/style-2.php:98
+msgid "Webhook url"
+msgstr ""
+
+#: core/shortcodes/views/reservation/style-1.php:122
+#: core/shortcodes/views/reservation/style-2.php:156
+msgid "Awesome"
+msgstr ""
+
+#: core/shortcodes/views/reservation/style-1.php:129
+#: core/shortcodes/views/reservation/style-2.php:163
+msgid "Your reservation has been received. Check your email for details."
+msgstr ""
+
+#: core/shortcodes/views/reservation/style-1.php:131
+#: core/shortcodes/views/reservation/style-2.php:165
+msgid "Your Invoice no."
+msgstr ""
+
+#: core/shortcodes/views/reservation/style-1.php:138
+#: core/shortcodes/views/reservation/style-2.php:172
+msgid ""
+"Your reservation is almost complete. Select foods from the menu to complete "
+"reservation"
+msgstr ""
+
+#: core/shortcodes/views/reservation/style-1.php:142
+#: core/shortcodes/views/reservation/style-2.php:176
+#: core/shortcodes/views/reservation/tab-pane.php:15
+msgid "Select Menu"
+msgstr ""
+
+#: core/shortcodes/views/reservation/style-1.php:146
+#: core/shortcodes/views/reservation/style-1.php:198
+#: core/shortcodes/views/reservation/style-2.php:180
+#: core/shortcodes/views/reservation/style-2.php:233
+msgid "Go to Checkout"
+msgstr ""
+
+#: core/shortcodes/views/reservation/style-2.php:76
+msgid "next"
+msgstr ""
+
+#: core/shortcodes/views/reservation/tab-pane.php:2
+msgid "Make a Reservation"
+msgstr ""
+
+#: core/shortcodes/views/reservation/tab-pane.php:3
+msgid "Booking"
+msgstr ""
+
+#: core/shortcodes/views/reservation/tab-pane.php:4
+msgid "Give your details"
+msgstr ""
+
+#: core/shortcodes/views/reservation/tab-pane.php:5
+#: core/shortcodes/views/reservation/tab-pane.php:27
+msgid "Confirmation"
+msgstr ""
+
+#: core/shortcodes/views/reservation/tab-pane.php:8
+msgid " with Food"
+msgstr ""
+
+#: core/shortcodes/views/reservation/tab-pane.php:12
+msgid "Select food"
+msgstr ""
+
+#: core/shortcodes/views/reservation/tab-pane.php:25
+msgid "Reservation Info."
+msgstr ""
+
+#: core/shortcodes/views/reservation/tab-pane.php:26
+msgid "Personal Info."
+msgstr ""
+
+#: core/shortcodes/views/reservation/tab-pane.php:35
+#: core/shortcodes/views/reservation/tab-pane.php:37
+#: core/shortcodes/views/reservation/tab-pane.php:38
+#: core/shortcodes/views/reservation/tab-pane.php:39
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: core/template/food-menu.php:19
+msgid "Preparing time"
+msgstr ""
+
+#: core/template/food-menu.php:43
+msgid "Food Order Location"
+msgstr ""
+
+#: core/template/woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: utils/table-utils.php:65
+msgid "Input field is empty"
+msgstr ""
+
+#: utils/table-utils.php:156
+msgid "All Day "
+msgstr ""
+
+#: utils/table-utils.php:168
+msgid "No Schedule is created yet!"
+msgstr ""
+
+#: utils/table-utils.php:170
+msgid "Select Schedule"
+msgstr ""
+
+#: utils/table-utils.php:260
+msgid "Table "
+msgstr ""
+
+#: utils/table-utils.php:261
+msgid "Chair "
+msgstr ""
+
+#: utils/table-utils.php:271
+msgid "All chairs"
+msgstr ""
+
+#: utils/table-utils.php:285
+msgid "Chairs: "
+msgstr ""
+
+#: utils/updater/edd-warper.php:229
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: utils/updater/edd-warper.php:237
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: utils/updater/edd-warper.php:481
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: utils/updater/edd-warper.php:481
+msgid "Error"
+msgstr ""
+
+#: utils/updater/init.php:29
+msgid ""
+"Plugin not found! Check the name of your plugin file in the if check above"
+msgstr ""
+
+#: utils/utilities.php:497
+msgid "Our opening time "
+msgstr ""
+
+#: utils/utilities.php:759
+msgid "Delivery type"
+msgstr ""
+
+#: widgets/category-list/category-list.php:29
+msgid "WPC Category List Pro"
+msgstr ""
+
+#: widgets/category-list/category-list.php:56
+msgid "Category List"
+msgstr ""
+
+#: widgets/category-list/category-list.php:63
+msgid "Category Style"
+msgstr ""
+
+#: widgets/category-list/category-list.php:67
+#: widgets/menu-location-list/menu-location-list.php:68
+#: widgets/reservation-with-food/reservation-with-food.php:60
+#: widgets/resevation-form/resevation-form.php:60
+#: widgets/visual-table-reservation/visual-table-reservation.php:60
+msgid "Style 1"
+msgstr ""
+
+#: widgets/category-list/category-list.php:68
+#: widgets/menu-location-list/menu-location-list.php:69
+#: widgets/reservation-with-food/reservation-with-food.php:61
+#: widgets/resevation-form/resevation-form.php:61
+msgid "Style 2"
+msgstr ""
+
+#: widgets/category-list/category-list.php:69
+#: widgets/menu-location-list/menu-location-list.php:70
+msgid "Style 3"
+msgstr ""
+
+#: widgets/category-list/category-list.php:70
+#: widgets/menu-location-list/menu-location-list.php:71
+msgid "Style 4"
+msgstr ""
+
+#: widgets/category-list/category-list.php:81
+#: widgets/food-menu-tab/food-menu-tab.php:78
+#: widgets/menu-location-list/menu-location-list.php:83
+#: widgets/menus/menus.php:83
+msgid "1"
+msgstr ""
+
+#: widgets/category-list/category-list.php:82
+#: widgets/food-menu-tab/food-menu-tab.php:79
+#: widgets/menu-location-list/menu-location-list.php:84
+#: widgets/menus/menus.php:84
+msgid "2"
+msgstr ""
+
+#: widgets/category-list/category-list.php:83
+#: widgets/food-menu-tab/food-menu-tab.php:80
+#: widgets/menu-location-list/menu-location-list.php:85
+#: widgets/menus/menus.php:85
+msgid "3"
+msgstr ""
+
+#: widgets/category-list/category-list.php:84
+#: widgets/food-menu-tab/food-menu-tab.php:81
+#: widgets/menu-location-list/menu-location-list.php:86
+#: widgets/menus/menus.php:86
+msgid "4"
+msgstr ""
+
+#: widgets/category-list/category-list.php:85
+#: widgets/menu-location-list/menu-location-list.php:87
+msgid "6"
+msgstr ""
+
+#: widgets/category-list/category-list.php:93
+msgid "Category Limit"
+msgstr ""
+
+#: widgets/category-list/category-list.php:94
+msgid "Category limit works when category list is not selected"
+msgstr ""
+
+#: widgets/category-list/category-list.php:103
+msgid "Category"
+msgstr ""
+
+#: widgets/category-list/category-list.php:112
+#: widgets/menu-location-list/menu-location-list.php:118
+msgid "Hide Empty?"
+msgstr ""
+
+#: widgets/category-list/category-list.php:113
+msgid "Hide empty works when category list is not selected"
+msgstr ""
+
+#: widgets/category-list/category-list.php:135
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:491
+#: widgets/food-menu-slider/food-menu-slider.php:403
+#: widgets/food-menu-tab/food-menu-tab.php:860
+#: widgets/menu-location-list/menu-location-list.php:143
+#: widgets/menu-slider-classic/menu-slider-classic.php:604
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:812
+#: widgets/menus/menus.php:534
+msgid "Title Style"
+msgstr ""
+
+#: widgets/category-list/category-list.php:142
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:498
+#: widgets/food-menu-slider/food-menu-slider.php:410
+#: widgets/food-menu-tab/food-menu-tab.php:867
+#: widgets/menu-location-list/menu-location-list.php:150
+#: widgets/menu-slider-classic/menu-slider-classic.php:611
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:820
+#: widgets/menus/menus.php:541
+msgid "Title Color"
+msgstr ""
+
+#: widgets/category-list/category-list.php:154
+#: widgets/menu-location-list/menu-location-list.php:162
+msgid "Title BG Color"
+msgstr ""
+
+#: widgets/category-list/category-list.php:165
+#: widgets/category-list/category-list.php:237
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:296
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:456
+#: widgets/food-menu-slider/food-menu-slider.php:369
+#: widgets/food-menu-slider/food-menu-slider.php:483
+#: widgets/food-menu-tab/food-menu-tab.php:665
+#: widgets/food-menu-tab/food-menu-tab.php:825
+#: widgets/menu-location-list/menu-location-list.php:173
+#: widgets/menu-location-list/menu-location-list.php:245
+#: widgets/menu-slider-classic/menu-slider-classic.php:350
+#: widgets/menu-slider-classic/menu-slider-classic.php:403
+#: widgets/menu-slider-classic/menu-slider-classic.php:569
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:608
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:777
+#: widgets/menus/menus.php:333 widgets/menus/menus.php:499
+#: widgets/reservation-with-food/reservation-with-food.php:225
+#: widgets/reservation-with-food/reservation-with-food.php:343
+#: widgets/reservation-with-food/reservation-with-food.php:384
+#: widgets/resevation-form/resevation-form.php:299
+#: widgets/resevation-form/resevation-form.php:328
+#: widgets/visual-table-reservation/visual-table-reservation.php:93
+#: widgets/visual-table-reservation/visual-table-reservation.php:122
+msgid "Typography"
+msgstr ""
+
+#: widgets/category-list/category-list.php:172
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:349
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:463
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:720
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:774
+#: widgets/food-menu-slider/food-menu-slider.php:376
+#: widgets/food-menu-slider/food-menu-slider.php:536
+#: widgets/food-menu-slider/food-menu-slider.php:731
+#: widgets/food-menu-tab/food-menu-tab.php:454
+#: widgets/food-menu-tab/food-menu-tab.php:718
+#: widgets/food-menu-tab/food-menu-tab.php:832
+#: widgets/food-menu-tab/food-menu-tab.php:952
+#: widgets/food-menu-tab/food-menu-tab.php:1098
+#: widgets/menu-location-list/menu-location-list.php:180
+#: widgets/menu-slider-classic/menu-slider-classic.php:462
+#: widgets/menu-slider-classic/menu-slider-classic.php:576
+#: widgets/menu-slider-classic/menu-slider-classic.php:685
+#: widgets/menu-slider-classic/menu-slider-classic.php:875
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:438
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:667
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:785
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:906
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:1005
+#: widgets/menus/menus.php:392 widgets/menus/menus.php:506
+#: widgets/menus/menus.php:747
+msgid "Padding"
+msgstr ""
+
+#: widgets/category-list/category-list.php:185
+#: widgets/menu-location-list/menu-location-list.php:193
+msgid "Button Style"
+msgstr ""
+
+#: widgets/category-list/category-list.php:193
+#: widgets/menu-location-list/menu-location-list.php:201
+msgid "Button Color"
+msgstr ""
+
+#: widgets/category-list/category-list.php:204
+#: widgets/menu-location-list/menu-location-list.php:212
+msgid "Button Hover Color"
+msgstr ""
+
+#: widgets/category-list/category-list.php:216
+#: widgets/menu-location-list/menu-location-list.php:224
+msgid "Button BG Color"
+msgstr ""
+
+#: widgets/category-list/category-list.php:226
+#: widgets/menu-location-list/menu-location-list.php:234
+msgid "Button BG Hover Color"
+msgstr ""
+
+#: widgets/category-list/category-list.php:244
+#: widgets/category-list/category-list.php:291
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:207
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:303
+#: widgets/food-menu-slider/food-menu-slider.php:235
+#: widgets/food-menu-slider/food-menu-slider.php:490
+#: widgets/food-menu-tab/food-menu-tab.php:575
+#: widgets/food-menu-tab/food-menu-tab.php:672
+#: widgets/menu-location-list/menu-location-list.php:252
+#: widgets/menu-location-list/menu-location-list.php:301
+#: widgets/menu-slider-classic/menu-slider-classic.php:269
+#: widgets/menu-slider-classic/menu-slider-classic.php:410
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:615
+#: widgets/menus/menus.php:244 widgets/menus/menus.php:340
+msgid "Width"
+msgstr ""
+
+#: widgets/category-list/category-list.php:265
+#: widgets/category-list/category-list.php:312
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:229
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:326
+#: widgets/food-menu-slider/food-menu-slider.php:257
+#: widgets/food-menu-slider/food-menu-slider.php:513
+#: widgets/food-menu-tab/food-menu-tab.php:597
+#: widgets/food-menu-tab/food-menu-tab.php:695
+#: widgets/menu-location-list/menu-location-list.php:273
+#: widgets/menu-location-list/menu-location-list.php:322
+#: widgets/menu-slider-classic/menu-slider-classic.php:291
+#: widgets/menu-slider-classic/menu-slider-classic.php:436
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:641
+#: widgets/menus/menus.php:266 widgets/menus/menus.php:366
+msgid "Height"
+msgstr ""
+
+#: widgets/category-list/category-list.php:284
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:198
+#: widgets/food-menu-slider/food-menu-slider.php:226
+#: widgets/food-menu-tab/food-menu-tab.php:566
+#: widgets/menu-location-list/menu-location-list.php:294
+#: widgets/menu-slider-classic/menu-slider-classic.php:260
+#: widgets/menus/menus.php:235
+msgid "Thumbnail Style"
+msgstr ""
+
+#: widgets/category-list/category-list.php:333
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:756
+#: widgets/food-menu-slider/food-menu-slider.php:713
+#: widgets/food-menu-tab/food-menu-tab.php:1080
+#: widgets/menu-location-list/menu-location-list.php:343
+#: widgets/menu-slider-classic/menu-slider-classic.php:857
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:987
+#: widgets/menus/menus.php:729
+msgid "Advance Style"
+msgstr ""
+
+#: widgets/category-list/category-list.php:340
+#: widgets/menu-location-list/menu-location-list.php:350
+msgid "Box Bacground Color"
+msgstr ""
+
+#: widgets/category-list/category-list.php:351
+#: widgets/menu-location-list/menu-location-list.php:361
+msgid "Box Hover Bacground Color"
+msgstr ""
+
+#: widgets/category-list/category-list.php:363
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:252
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:360
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:474
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:731
+#: widgets/food-menu-slider/food-menu-slider.php:280
+#: widgets/food-menu-slider/food-menu-slider.php:387
+#: widgets/food-menu-slider/food-menu-slider.php:547
+#: widgets/food-menu-tab/food-menu-tab.php:621
+#: widgets/food-menu-tab/food-menu-tab.php:729
+#: widgets/food-menu-tab/food-menu-tab.php:843
+#: widgets/food-menu-tab/food-menu-tab.php:963
+#: widgets/menu-location-list/menu-location-list.php:373
+#: widgets/menu-slider-classic/menu-slider-classic.php:315
+#: widgets/menu-slider-classic/menu-slider-classic.php:473
+#: widgets/menu-slider-classic/menu-slider-classic.php:587
+#: widgets/menu-slider-classic/menu-slider-classic.php:696
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:678
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:797
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:917
+#: widgets/menus/menus.php:289 widgets/menus/menus.php:403
+#: widgets/menus/menus.php:517
+msgid "Border Radius"
+msgstr ""
+
+#: widgets/category-list/category-list.php:375
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:763
+#: widgets/food-menu-slider/food-menu-slider.php:720
+#: widgets/food-menu-tab/food-menu-tab.php:1087
+#: widgets/menu-location-list/menu-location-list.php:385
+#: widgets/menu-slider-classic/menu-slider-classic.php:864
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:994
+#: widgets/menus/menus.php:736
+msgid "Margin"
+msgstr ""
+
+#: widgets/content-style/content-1.php:44
+#: widgets/content-style/content-2.php:37
+#: widgets/content-style/content-5.php:33
+#: widgets/content-style/content-6.php:37
+msgid "%  Off"
+msgstr ""
+
+#: widgets/content-style/content-3.php:31
+#: widgets/content-style/content-4.php:48
+#: widgets/menu-slider-classic/style/style-1.php:59
+msgid "% Off"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:25
+msgid "WPC Menu Loadmore Pro"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:49
+msgid "WPC Food Menu Loadmore Pro"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:56
+#: widgets/food-menu-slider/food-menu-slider.php:57 widgets/menus/menus.php:64
+#: widgets/reservation-with-food/reservation-with-food.php:93
+msgid "Menu Style"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:60
+#: widgets/food-menu-slider/food-menu-slider.php:61
+#: widgets/food-menu-tab/food-menu-tab.php:62
+#: widgets/menu-slider-classic/menu-slider-classic.php:62
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:62
+#: widgets/menus/menus.php:68
+#: widgets/reservation-with-food/reservation-with-food.php:97
+msgid "Menu Style 1"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:69
+#: widgets/food-menu-slider/food-menu-slider.php:71 widgets/menus/menus.php:95
+#: widgets/reservation-with-food/reservation-with-food.php:106
+msgid "Menu Category"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:78
+#: widgets/food-menu-slider/food-menu-slider.php:80
+#: widgets/food-menu-tab/food-menu-tab.php:131
+#: widgets/menu-slider-classic/menu-slider-classic.php:111
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:115
+#: widgets/menus/menus.php:104
+#: widgets/reservation-with-food/reservation-with-food.php:117
+msgid "Menu count"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:86
+#: widgets/food-menu-slider/food-menu-slider.php:108
+#: widgets/food-menu-tab/food-menu-tab.php:139
+#: widgets/menu-slider-classic/menu-slider-classic.php:119
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:133
+#: widgets/menus/menus.php:112
+#: widgets/reservation-with-food/reservation-with-food.php:125
+msgid "Menu Order"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:90
+#: widgets/food-menu-slider/food-menu-slider.php:112
+#: widgets/food-menu-tab/food-menu-tab.php:143
+#: widgets/menu-slider-classic/menu-slider-classic.php:123
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:137
+#: widgets/menus/menus.php:116
+#: widgets/reservation-with-food/reservation-with-food.php:129
+msgid "ASC"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:91
+#: widgets/food-menu-slider/food-menu-slider.php:113
+#: widgets/food-menu-tab/food-menu-tab.php:144
+#: widgets/menu-slider-classic/menu-slider-classic.php:124
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:138
+#: widgets/menus/menus.php:117
+#: widgets/reservation-with-food/reservation-with-food.php:130
+msgid "DESC"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:100
+#: widgets/food-menu-slider/food-menu-slider.php:122
+#: widgets/food-menu-tab/food-menu-tab.php:153
+#: widgets/menu-slider-classic/menu-slider-classic.php:133
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:147
+#: widgets/menus/menus.php:126
+#: widgets/reservation-with-food/reservation-with-food.php:137
+msgid "Show Thumbnail"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:112
+#: widgets/food-menu-slider/food-menu-slider.php:96
+#: widgets/food-menu-tab/food-menu-tab.php:165
+#: widgets/menu-slider-classic/menu-slider-classic.php:145
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:159
+#: widgets/menus/menus.php:138
+#: widgets/reservation-with-food/reservation-with-food.php:148
+msgid "Show Item Status"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:143
+#: widgets/food-menu-slider/food-menu-slider.php:155
+#: widgets/food-menu-tab/food-menu-tab.php:196
+#: widgets/menu-slider-classic/menu-slider-classic.php:176
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:193
+#: widgets/menus/menus.php:169
+#: widgets/reservation-with-food/reservation-with-food.php:179
+msgid "Use Title Link?"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:154
+#: widgets/food-menu-slider/food-menu-slider.php:166
+#: widgets/food-menu-tab/food-menu-tab.php:207
+#: widgets/menu-slider-classic/menu-slider-classic.php:187
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:205
+#: widgets/menus/menus.php:181
+msgid "Show Preparing and Delivery Time"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:186
+#: widgets/food-menu-slider/food-menu-slider.php:211
+#: widgets/food-menu-tab/food-menu-tab.php:252
+#: widgets/menu-slider-classic/menu-slider-classic.php:244
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:250
+#: widgets/menus/menus.php:223
+msgid "Button Text For Variable Product"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:267
+#: widgets/food-menu-slider/food-menu-slider.php:454
+#: widgets/food-menu-tab/food-menu-tab.php:636
+#: widgets/menu-slider-classic/menu-slider-classic.php:374
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:579
+#: widgets/menus/menus.php:304
+msgid "Cart Button Style"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:275
+#: widgets/food-menu-slider/food-menu-slider.php:462
+#: widgets/food-menu-tab/food-menu-tab.php:644
+#: widgets/menu-slider-classic/menu-slider-classic.php:382
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:587
+#: widgets/menus/menus.php:312
+msgid "Cart Button Color"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:285
+#: widgets/food-menu-slider/food-menu-slider.php:472
+#: widgets/food-menu-tab/food-menu-tab.php:654
+#: widgets/menu-slider-classic/menu-slider-classic.php:392
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:597
+#: widgets/menus/menus.php:322
+msgid "Cart Button BG Color"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:372
+#: widgets/food-menu-slider/food-menu-slider.php:559
+#: widgets/food-menu-tab/food-menu-tab.php:741
+#: widgets/menu-slider-classic/menu-slider-classic.php:485
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:690
+#: widgets/menus/menus.php:415
+msgid "Button Right To Left"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:397
+#: widgets/food-menu-slider/food-menu-slider.php:584
+#: widgets/food-menu-tab/food-menu-tab.php:766
+#: widgets/menu-slider-classic/menu-slider-classic.php:510
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:715
+#: widgets/menus/menus.php:440
+msgid "Button Bottom To Top"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:427
+#: widgets/food-menu-slider/food-menu-slider.php:340
+#: widgets/food-menu-tab/food-menu-tab.php:796
+#: widgets/menu-slider-classic/menu-slider-classic.php:540
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:745
+#: widgets/menus/menus.php:470
+msgid "Item Status Style"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:435
+#: widgets/food-menu-slider/food-menu-slider.php:348
+#: widgets/food-menu-tab/food-menu-tab.php:804
+#: widgets/menu-slider-classic/menu-slider-classic.php:548
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:754
+#: widgets/menus/menus.php:478
+msgid "Item Status Color"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:445
+#: widgets/food-menu-slider/food-menu-slider.php:358
+#: widgets/food-menu-tab/food-menu-tab.php:814
+#: widgets/menu-slider-classic/menu-slider-classic.php:558
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:765
+#: widgets/menus/menus.php:488
+msgid "Item Status BG Color"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:508
+#: widgets/food-menu-slider/food-menu-slider.php:420
+#: widgets/food-menu-tab/food-menu-tab.php:877
+#: widgets/menu-slider-classic/menu-slider-classic.php:621
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:831
+#: widgets/menus/menus.php:551
+msgid "Title Hover Color"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:519
+#: widgets/food-menu-tab/food-menu-tab.php:888
+#: widgets/menu-slider-classic/menu-slider-classic.php:631
+#: widgets/menus/menus.php:562
+msgid "Title Border Color"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:532
+#: widgets/food-menu-slider/food-menu-slider.php:432
+#: widgets/food-menu-tab/food-menu-tab.php:901
+#: widgets/menu-slider-classic/menu-slider-classic.php:645
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:844
+#: widgets/menus/menus.php:575
+msgid "Title Typography"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:539
+#: widgets/food-menu-slider/food-menu-slider.php:439
+#: widgets/food-menu-tab/food-menu-tab.php:908
+#: widgets/menu-slider-classic/menu-slider-classic.php:652
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:851
+#: widgets/menus/menus.php:582
+msgid "Title Margin"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:554
+#: widgets/food-menu-slider/food-menu-slider.php:614
+#: widgets/food-menu-tab/food-menu-tab.php:923
+#: widgets/menu-slider-classic/menu-slider-classic.php:667
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:866
+#: widgets/menus/menus.php:597
+msgid "Price Style"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:561
+#: widgets/food-menu-slider/food-menu-slider.php:621
+#: widgets/food-menu-tab/food-menu-tab.php:930
+#: widgets/menu-slider-classic/menu-slider-classic.php:674
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:873
+#: widgets/menus/menus.php:604
+msgid "Price Color"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:571
+#: widgets/food-menu-tab/food-menu-tab.php:940
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:883
+#: widgets/menus/menus.php:614
+msgid "Price background Color"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:585
+#: widgets/food-menu-slider/food-menu-slider.php:646
+#: widgets/food-menu-tab/food-menu-tab.php:978
+#: widgets/menu-slider-classic/menu-slider-classic.php:711
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:898
+#: widgets/menus/menus.php:628
+msgid "Price Typography"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:596
+#: widgets/food-menu-slider/food-menu-slider.php:659
+#: widgets/food-menu-tab/food-menu-tab.php:989
+#: widgets/menu-slider-classic/menu-slider-classic.php:722
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:933
+#: widgets/menus/menus.php:639
+msgid "Description Style"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:604
+#: widgets/food-menu-slider/food-menu-slider.php:667
+#: widgets/food-menu-tab/food-menu-tab.php:997
+#: widgets/menu-slider-classic/menu-slider-classic.php:730
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:941
+#: widgets/menus/menus.php:647
+msgid "Description Color"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:617
+#: widgets/food-menu-slider/food-menu-slider.php:680
+#: widgets/food-menu-tab/food-menu-tab.php:1010
+#: widgets/menu-slider-classic/menu-slider-classic.php:743
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:954
+#: widgets/menus/menus.php:660
+msgid "Description Typography"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:625
+#: widgets/food-menu-slider/food-menu-slider.php:688
+#: widgets/food-menu-tab/food-menu-tab.php:1018
+#: widgets/menu-slider-classic/menu-slider-classic.php:751
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:962
+#: widgets/menus/menus.php:668
+msgid "Description Padding"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:636
+#: widgets/food-menu-slider/food-menu-slider.php:699
+#: widgets/food-menu-tab/food-menu-tab.php:1029
+#: widgets/menu-slider-classic/menu-slider-classic.php:762
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:973
+#: widgets/menus/menus.php:679
+msgid "Description Margin"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:650
+msgid "LoadMore Button Style"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:658
+#: widgets/food-menu-tab/food-menu-tab.php:274
+#: widgets/food-menu-tab/food-menu-tab.php:1051
+#: widgets/menu-slider-classic/menu-slider-classic.php:784
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:270
+#: widgets/menus/menus.php:701
+msgid "Alignment"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:667
+#: widgets/food-menu-tab/food-menu-tab.php:283
+#: widgets/food-menu-tab/food-menu-tab.php:1059
+#: widgets/menu-slider-classic/menu-slider-classic.php:792
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:279
+#: widgets/menus/menus.php:709
+msgid "Center"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:675
+#: widgets/food-menu-tab/food-menu-tab.php:291
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:287
+msgid "Justified"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:689
+msgid "Color"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:700
+msgid "Background Color"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:710
+msgid "Hover Background Color"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:745
+msgid " Typography"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:787
+#: widgets/food-menu-slider/food-menu-slider.php:745
+#: widgets/food-menu-tab/food-menu-tab.php:1111
+#: widgets/menu-slider-classic/menu-slider-classic.php:888
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:1018
+#: widgets/menus/menus.php:761
+#: widgets/reservation-with-food/reservation-with-food.php:495
+#: widgets/reservation-with-food/reservation-with-food.php:543
+#: widgets/reservation-with-food/reservation-with-food.php:654
+#: widgets/resevation-form/resevation-form.php:449
+#: widgets/resevation-form/resevation-form.php:497
+#: widgets/resevation-form/resevation-form.php:604
+#: widgets/visual-table-reservation/visual-table-reservation.php:243
+#: widgets/visual-table-reservation/visual-table-reservation.php:291
+#: widgets/visual-table-reservation/visual-table-reservation.php:398
+msgid "Box Shadow"
+msgstr ""
+
+#: widgets/food-menu-loadmore/food-menu-loadmore.php:795
+#: widgets/food-menu-tab/food-menu-tab.php:376
+#: widgets/food-menu-tab/food-menu-tab.php:1119
+#: widgets/menu-slider-classic/menu-slider-classic.php:896
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:359
+#: widgets/menus/menus.php:769
+#: widgets/reservation-with-food/reservation-with-food.php:504
+#: widgets/reservation-with-food/reservation-with-food.php:552
+#: widgets/reservation-with-food/reservation-with-food.php:662
+#: widgets/resevation-form/resevation-form.php:128
+#: widgets/resevation-form/resevation-form.php:169
+#: widgets/resevation-form/resevation-form.php:458
+#: widgets/resevation-form/resevation-form.php:506
+#: widgets/visual-table-reservation/visual-table-reservation.php:252
+#: widgets/visual-table-reservation/visual-table-reservation.php:300
+msgid "Border"
+msgstr ""
+
+#: widgets/food-menu-slider/food-menu-slider.php:26
+msgid "WPC Food Menu Slider Pro"
+msgstr ""
+
+#: widgets/food-menu-slider/food-menu-slider.php:50
+msgid "WPC Food Menu Slider"
+msgstr ""
+
+#: widgets/food-menu-slider/food-menu-slider.php:62
+#: widgets/food-menu-tab/food-menu-tab.php:63
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:63
+#: widgets/menus/menus.php:69
+#: widgets/reservation-with-food/reservation-with-food.php:98
+msgid "Menu Style 2"
+msgstr ""
+
+#: widgets/food-menu-slider/food-menu-slider.php:63
+#: widgets/food-menu-tab/food-menu-tab.php:64
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:64
+#: widgets/menus/menus.php:70
+msgid "Menu Style 3"
+msgstr ""
+
+#: widgets/food-menu-slider/food-menu-slider.php:88
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:124
+msgid "Slider count"
+msgstr ""
+
+#: widgets/food-menu-slider/food-menu-slider.php:190
+#: widgets/menu-slider-classic/menu-slider-classic.php:223
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:229
+msgid "Auto play"
+msgstr ""
+
+#: widgets/food-menu-slider/food-menu-slider.php:192
+#: widgets/menu-slider-classic/menu-slider-classic.php:225
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:231
+msgid "On"
+msgstr ""
+
+#: widgets/food-menu-slider/food-menu-slider.php:193
+#: widgets/menu-slider-classic/menu-slider-classic.php:226
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:232
+msgid "Off"
+msgstr ""
+
+#: widgets/food-menu-slider/food-menu-slider.php:297
+#: widgets/menu-slider-classic/menu-slider-classic.php:813
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:537
+msgid "Slider Style"
+msgstr ""
+
+#: widgets/food-menu-slider/food-menu-slider.php:304
+#: widgets/menu-slider-classic/menu-slider-classic.php:820
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:544
+msgid "Slider Nav Show"
+msgstr ""
+
+#: widgets/food-menu-slider/food-menu-slider.php:315
+#: widgets/menu-slider-classic/menu-slider-classic.php:831
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:555
+msgid "Slider dot Show"
+msgstr ""
+
+#: widgets/food-menu-slider/food-menu-slider.php:326
+#: widgets/menu-slider-classic/menu-slider-classic.php:842
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:566
+msgid "Slider Nav BG Color"
+msgstr ""
+
+#: widgets/food-menu-slider/food-menu-slider.php:631
+msgid "Price BG Color"
+msgstr ""
+
+#: widgets/food-menu-tab/food-menu-tab.php:27
+#: widgets/food-menu-tab/food-menu-tab.php:51
+msgid "WPC Menu Tab Pro"
+msgstr ""
+
+#: widgets/food-menu-tab/food-menu-tab.php:58
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:58
+msgid "Menu tab Style"
+msgstr ""
+
+#: widgets/food-menu-tab/food-menu-tab.php:65 widgets/menus/menus.php:71
+msgid "Menu Style 4"
+msgstr ""
+
+#: widgets/food-menu-tab/food-menu-tab.php:66 widgets/menus/menus.php:72
+msgid "Menu Style 5"
+msgstr ""
+
+#: widgets/food-menu-tab/food-menu-tab.php:74 widgets/menus/menus.php:79
+msgid "Menu Column"
+msgstr ""
+
+#: widgets/food-menu-tab/food-menu-tab.php:89
+#: widgets/menu-slider-classic/menu-slider-classic.php:71
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:73
+msgid "Select Categories"
+msgstr ""
+
+#: widgets/food-menu-tab/food-menu-tab.php:98
+#: widgets/menu-slider-classic/menu-slider-classic.php:79
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:82
+msgid "Tab title"
+msgstr ""
+
+#: widgets/food-menu-tab/food-menu-tab.php:106
+#: widgets/menu-slider-classic/menu-slider-classic.php:86
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:89
+msgid "Tab Category Icon"
+msgstr ""
+
+#: widgets/food-menu-tab/food-menu-tab.php:114
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:98
+msgid "Tabs"
+msgstr ""
+
+#: widgets/food-menu-tab/food-menu-tab.php:119
+#: widgets/menu-slider-classic/menu-slider-classic.php:99
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:103
+msgid "Add Label"
+msgstr ""
+
+#: widgets/food-menu-tab/food-menu-tab.php:267
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:263
+msgid "Nav style"
+msgstr ""
+
+#: widgets/food-menu-tab/food-menu-tab.php:305
+msgid "Nav Position"
+msgstr ""
+
+#: widgets/food-menu-tab/food-menu-tab.php:321
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:303
+msgid "Nav Title Typography"
+msgstr ""
+
+#: widgets/food-menu-tab/food-menu-tab.php:335
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:317
+#: widgets/reservation-with-food/reservation-with-food.php:251
+#: widgets/reservation-with-food/reservation-with-food.php:466
+#: widgets/resevation-form/resevation-form.php:97
+#: widgets/resevation-form/resevation-form.php:210
+#: widgets/resevation-form/resevation-form.php:420
+#: widgets/visual-table-reservation/visual-table-reservation.php:214
+msgid "Normal"
+msgstr ""
+
+#: widgets/food-menu-tab/food-menu-tab.php:343
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:324
+msgid "Nav Title Color"
+msgstr ""
+
+#: widgets/food-menu-tab/food-menu-tab.php:353
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:335
+msgid "Nav Icon Color"
+msgstr ""
+
+#: widgets/food-menu-tab/food-menu-tab.php:366
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:349
+msgid "Background"
+msgstr ""
+
+#: widgets/food-menu-tab/food-menu-tab.php:388
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:371
+#: widgets/reservation-with-food/reservation-with-food.php:284
+#: widgets/resevation-form/resevation-form.php:140
+#: widgets/resevation-form/resevation-form.php:243
+msgid "Active"
+msgstr ""
+
+#: widgets/food-menu-tab/food-menu-tab.php:394
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:378
+msgid "Nav active color"
+msgstr ""
+
+#: widgets/food-menu-tab/food-menu-tab.php:406
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:391
+#: widgets/reservation-with-food/reservation-with-food.php:269
+#: widgets/resevation-form/resevation-form.php:228
+msgid "Background color"
+msgstr ""
+
+#: widgets/food-menu-tab/food-menu-tab.php:415
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:400
+msgid "Nav Icon Active Color"
+msgstr ""
+
+#: widgets/food-menu-tab/food-menu-tab.php:429
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:413
+msgid "Nav Angle Active color"
+msgstr ""
+
+#: widgets/food-menu-tab/food-menu-tab.php:440
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:424
+msgid "Border active"
+msgstr ""
+
+#: widgets/food-menu-tab/food-menu-tab.php:465
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:449
+msgid "Nav Margin"
+msgstr ""
+
+#: widgets/food-menu-tab/food-menu-tab.php:478
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:462
+msgid "Nav Icon"
+msgstr ""
+
+#: widgets/food-menu-tab/food-menu-tab.php:490
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:474
+msgid "Nav Icon Typography"
+msgstr ""
+
+#: widgets/food-menu-tab/food-menu-tab.php:492
+msgid ""
+"This control only works when the icon is set from the Elementor Icon Library."
+msgstr ""
+
+#: widgets/food-menu-tab/food-menu-tab.php:500
+msgid "This control works only for Elementor Icon Library icons."
+msgstr ""
+
+#: widgets/food-menu-tab/food-menu-tab.php:508
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:481
+msgid "Icon Width"
+msgstr ""
+
+#: widgets/food-menu-tab/food-menu-tab.php:528
+#: widgets/food-menu-tab/food-menu-tab.php:555
+msgid "This control works only for SVG icons."
+msgstr ""
+
+#: widgets/food-menu-tab/food-menu-tab.php:534
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:506
+msgid "Icon Height"
+msgstr ""
+
+#: widgets/food-menu-tab/food-menu-tab.php:1043
+#: widgets/menu-slider-classic/menu-slider-classic.php:776
+#: widgets/menus/menus.php:693
+msgid "Search Field Style"
+msgstr ""
+
+#: widgets/menu-location-list/menu-location-list.php:30
+msgid "WPC Location List Pro"
+msgstr ""
+
+#: widgets/menu-location-list/menu-location-list.php:57
+msgid "Location List"
+msgstr ""
+
+#: widgets/menu-location-list/menu-location-list.php:64
+msgid "Location Style"
+msgstr ""
+
+#: widgets/menu-location-list/menu-location-list.php:72
+msgid "Style 5"
+msgstr ""
+
+#: widgets/menu-location-list/menu-location-list.php:97
+msgid "Location Limit"
+msgstr ""
+
+#: widgets/menu-location-list/menu-location-list.php:98
+msgid "Limit works when food location is not selected"
+msgstr ""
+
+#: widgets/menu-location-list/menu-location-list.php:108
+msgid "Location"
+msgstr ""
+
+#: widgets/menu-location-list/menu-location-list.php:119
+msgid "Hide empty works when food location is not selected"
+msgstr ""
+
+#: widgets/menu-location-list/style/part/location.php:7
+msgid "Available Stores Nearby:"
+msgstr ""
+
+#: widgets/menu-location-list/style/part/location.php:67
+msgid "No store found in this location"
+msgstr ""
+
+#: widgets/menu-location-list/style/style-1.php:8
+#: widgets/menu-location-list/style/style-2.php:8
+msgid "No Location Found"
+msgstr ""
+
+#: widgets/menu-location-list/style/style-5.php:12
+msgid "No store is added yet."
+msgstr ""
+
+#: widgets/menu-location-list/style/style-5.php:20
+msgid "Enter your address"
+msgstr ""
+
+#: widgets/menu-location-list/style/style-5.php:33
+msgid "Find me"
+msgstr ""
+
+#: widgets/menu-location-list/style/style-5.php:36
+msgid "Search location button"
+msgstr ""
+
+#: widgets/menu-slider-classic/menu-slider-classic.php:27
+#: widgets/menu-slider-classic/menu-slider-classic.php:51
+msgid "WPC Menu Slider Classic Pro"
+msgstr ""
+
+#: widgets/menu-slider-classic/menu-slider-classic.php:58
+msgid "Menu  Style"
+msgstr ""
+
+#: widgets/menu-slider-classic/menu-slider-classic.php:94
+msgid "Sliders"
+msgstr ""
+
+#: widgets/menu-slider-classic/menu-slider-classic.php:330
+msgid "Category Title Style"
+msgstr ""
+
+#: widgets/menu-slider-classic/menu-slider-classic.php:337
+msgid "Category Title Color"
+msgstr ""
+
+#: widgets/menu-slider-classic/menu-slider-classic.php:358
+msgid " Margin"
+msgstr ""
+
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:27
+msgid "WPC Menu Tab With Slider Pro"
+msgstr ""
+
+#: widgets/menu-tab-with-slider/menu-tab-with-slider.php:51
+msgid "WPC Menu Tab With Slider"
+msgstr ""
+
+#: widgets/menus/menus.php:30
+msgid "WPC Menu List Pro"
+msgstr ""
+
+#: widgets/menus/menus.php:57
+msgid "WPC Food Menu List Pro"
+msgstr ""
+
+#: widgets/pickup-delivery/pickup-delivery.php:19
+msgid "Pickup Delivery"
+msgstr ""
+
+#: widgets/pickup-delivery/pickup-delivery.php:35
+msgid "Pickup-delivery settings"
+msgstr ""
+
+#: widgets/pickup-delivery/pickup-delivery.php:42
+msgid "Delivery Button Text"
+msgstr ""
+
+#: widgets/pickup-delivery/pickup-delivery.php:52
+msgid "Pickup Button Text"
+msgstr ""
+
+#: widgets/pickup-delivery/pickup-delivery.php:62
+msgid "Select Search Page"
+msgstr ""
+
+#: widgets/pickup-delivery/pickup-delivery.php:125
+msgid "Enter Your Location"
+msgstr ""
+
+#: widgets/pickup-delivery/pickup-delivery.php:127
+msgid "or"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:26
+msgid "WPC Reservation With Food Pro"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:50
+msgid "WPC Reservation settings"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:57
+msgid "Reservation Form Style"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:73
+msgid "Food Menu settings"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:80
+msgid "Menu Template"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:84
+msgid "Menu List"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:85
+msgid "Menu Tab"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:190
+msgid "Show add to cart button"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:206
+#: widgets/resevation-form/resevation-form.php:73
+msgid "Form Header"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:214
+msgid "Title color"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:234
+#: widgets/resevation-form/resevation-form.php:193
+msgid "Pagination Number Style"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:259
+#: widgets/resevation-form/resevation-form.php:218
+msgid "Pagination color"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:291
+#: widgets/resevation-form/resevation-form.php:105
+#: widgets/resevation-form/resevation-form.php:146
+#: widgets/resevation-form/resevation-form.php:249
+msgid "color"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:301
+#: widgets/resevation-form/resevation-form.php:156
+#: widgets/resevation-form/resevation-form.php:259
+msgid " Background color"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:322
+#: widgets/resevation-form/resevation-form.php:280
+#: widgets/visual-table-reservation/visual-table-reservation.php:74
+msgid "Field Label"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:331
+#: widgets/resevation-form/resevation-form.php:287
+#: widgets/visual-table-reservation/visual-table-reservation.php:81
+msgid "Label Color"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:354
+#: widgets/resevation-form/resevation-form.php:310
+#: widgets/visual-table-reservation/visual-table-reservation.php:104
+msgid "Input field"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:362
+#: widgets/resevation-form/resevation-form.php:316
+#: widgets/visual-table-reservation/visual-table-reservation.php:110
+msgid "Input Color"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:372
+msgid "Input Background Color"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:391
+#: widgets/resevation-form/resevation-form.php:335
+#: widgets/visual-table-reservation/visual-table-reservation.php:129
+msgid "Input Height"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:413
+#: widgets/resevation-form/resevation-form.php:357
+#: widgets/visual-table-reservation/visual-table-reservation.php:151
+msgid "Textarea Height"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:436
+#: widgets/resevation-form/resevation-form.php:380
+#: widgets/visual-table-reservation/visual-table-reservation.php:174
+msgid "Input Padding"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:451
+#: widgets/resevation-form/resevation-form.php:395
+#: widgets/visual-table-reservation/visual-table-reservation.php:189
+msgid "Button"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:474
+#: widgets/resevation-form/resevation-form.php:428
+#: widgets/visual-table-reservation/visual-table-reservation.php:222
+msgid "Button color"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:484
+#: widgets/resevation-form/resevation-form.php:115
+#: widgets/resevation-form/resevation-form.php:438
+#: widgets/visual-table-reservation/visual-table-reservation.php:232
+msgid "Button Background color"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:516
+#: widgets/resevation-form/resevation-form.php:470
+#: widgets/visual-table-reservation/visual-table-reservation.php:264
+msgid "Hover"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:522
+#: widgets/resevation-form/resevation-form.php:476
+#: widgets/visual-table-reservation/visual-table-reservation.php:270
+msgid "Button Hover color"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:532
+#: widgets/resevation-form/resevation-form.php:486
+#: widgets/visual-table-reservation/visual-table-reservation.php:280
+msgid "Button Background Hover color"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:565
+#: widgets/resevation-form/resevation-form.php:519
+#: widgets/visual-table-reservation/visual-table-reservation.php:313
+msgid "Button Padding"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:582
+#: widgets/resevation-form/resevation-form.php:536
+#: widgets/visual-table-reservation/visual-table-reservation.php:330
+msgid " Notification Message"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:590
+#: widgets/resevation-form/resevation-form.php:542
+#: widgets/visual-table-reservation/visual-table-reservation.php:336
+msgid "Error notification color"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:600
+#: widgets/resevation-form/resevation-form.php:552
+#: widgets/visual-table-reservation/visual-table-reservation.php:346
+msgid "Error notification BG color"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:611
+#: widgets/resevation-form/resevation-form.php:563
+#: widgets/visual-table-reservation/visual-table-reservation.php:357
+msgid "Success notification color"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:621
+#: widgets/resevation-form/resevation-form.php:573
+#: widgets/visual-table-reservation/visual-table-reservation.php:367
+msgid "Success notification BG color"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:635
+#: widgets/resevation-form/resevation-form.php:587
+#: widgets/visual-table-reservation/visual-table-reservation.php:381
+msgid "Advance"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:643
+#: widgets/resevation-form/resevation-form.php:593
+#: widgets/visual-table-reservation/visual-table-reservation.php:387
+msgid "Form Backround color"
+msgstr ""
+
+#: widgets/reservation-with-food/reservation-with-food.php:670
+#: widgets/resevation-form/resevation-form.php:612
+#: widgets/visual-table-reservation/visual-table-reservation.php:406
+msgid "Box Padding"
+msgstr ""
+
+#: widgets/resevation-form/resevation-form.php:26
+#: widgets/resevation-form/resevation-form.php:50
+msgid "WPC Reservation Form Pro"
+msgstr ""
+
+#: widgets/resevation-form/resevation-form.php:57
+#: widgets/visual-table-reservation/visual-table-reservation.php:57
+msgid "Style"
+msgstr ""
+
+#: widgets/resevation-form/resevation-form.php:79
+msgid "Nav Box Background color"
+msgstr ""
+
+#: widgets/resevation-form/resevation-form.php:182
+msgid " Padding"
+msgstr ""
+
+#: widgets/resevation-form/resevation-form.php:401
+#: widgets/visual-table-reservation/visual-table-reservation.php:195
+msgid "Button Link color"
+msgstr ""
+
+#: widgets/resevation-form/resevation-form.php:626
+msgid "Fluentcrm"
+msgstr ""
+
+#: widgets/resevation-form/resevation-form.php:633
+msgid "Enable Fluentcrm"
+msgstr ""
+
+#: widgets/resevation-form/resevation-form.php:645
+msgid "Fluentcrm WebHook"
+msgstr ""
+
+#: widgets/visual-table-reservation/visual-table-reservation.php:26
+msgid "WPC Visual Table Reservation Pro"
+msgstr ""
+
+#: widgets/visual-table-reservation/visual-table-reservation.php:50
+msgid "WPC visual table Pro"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Cafe Pro"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://product.themewinter.com/wpcafe"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "WordPress Restaurant solution plugin to launch Restaurant Websites."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themewinter.com/"
+msgstr ""

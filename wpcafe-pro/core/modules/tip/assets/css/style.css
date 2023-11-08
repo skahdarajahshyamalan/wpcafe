@@ -1,0 +1,33 @@
+.wpc_pro_tip_msg {
+    color: red;
+}
+.wpc_pro_order_tip_block{
+    margin: 20px 0 5px;
+}
+
+.wpc_pro_order_tip_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.wpc_pro_order_tip_wrapper > div{
+    margin:0 15px 15px 0;
+}
+
+.wpc_pro_order_tip_wrapper .wpc-form-control{
+    border: 1px solid #ddd;
+    width: 100%;
+    padding: 0 20px;
+}
+.wpc_pro_order_tip_wrapper .wpc-form-control:focus{
+    border-color: #ddd;
+}
+.wpc_pro_order_tip_wrapper .wpc-btn.wpc-btn-border{
+    text-transform: capitalize;
+    padding: 0 20px;
+    border: 1px solid #E7272D;
+    background-color: transparent;
+    background-image: none;
+    color: #E7272D;
+    text-transform: uppercase;
+    line-height: 43px;
+}
